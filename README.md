@@ -1,2 +1,2 @@
-# Portofolio
+# Portfolio
 GitHub Pages
