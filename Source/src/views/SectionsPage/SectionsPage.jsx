@@ -11,8 +11,8 @@ import SectionHeaders from "./Sections/SectionHeaders.jsx";
 import SectionFeatures from "./Sections/SectionFeatures.jsx";
 import SectionBlogs from "./Sections/SectionBlogs.jsx";
 import SectionTeams from "./Sections/SectionTeams.jsx";
-import SectionProjects from "./Sections/SectionProjects.jsx";
-import SectionPricing from "./Sections/SectionPricing.jsx";
+/* import SectionProjects from "./Sections/SectionProjects.jsx";
+import SectionPricing from "./Sections/SectionPricing.jsx"; */
 import SectionTestimonials from "./Sections/SectionTestimonials.jsx";
 import SectionContacts from "./Sections/SectionContacts.jsx";
 
@@ -92,7 +92,7 @@ class SectionsPage extends React.Component {
       <div>
         <Header
           color="info"
-          brand="Material Kit PRO React"
+          brand="Desha"
           links={<HeaderLinks dropdownHoverColor="info" />}
           fixed
         />
@@ -101,9 +101,9 @@ class SectionsPage extends React.Component {
           <SectionFeatures id="features" />
           <SectionBlogs id="blogs" />
           <SectionTeams id="teams" />
-          <SectionProjects id="projects" />
+          {/* <SectionProjects id="projects" />
           <SectionPricing id="pricing" />
-          <SectionTestimonials id="testimonials" />
+           */}<SectionTestimonials id="testimonials" />
           <SectionContacts id="contacts" />
         </div>
         <nav id="cd-vertical-nav">
@@ -126,7 +126,7 @@ class SectionsPage extends React.Component {
                 }}
               >
                 <span className="cd-dot" />
-                <span className="cd-label">Headers</span>
+                <span className="cd-label">About Me</span>
               </a>
             </li>
             <li>
@@ -147,7 +147,7 @@ class SectionsPage extends React.Component {
                 }}
               >
                 <span className="cd-dot" />
-                <span className="cd-label">Features</span>
+                <span className="cd-label">Qualifications</span>
               </a>
             </li>
             <li>
@@ -168,7 +168,7 @@ class SectionsPage extends React.Component {
                 }}
               >
                 <span className="cd-dot" />
-                <span className="cd-label">Blogs</span>
+                <span className="cd-label">Achievements</span>
               </a>
             </li>
             <li>
@@ -189,31 +189,11 @@ class SectionsPage extends React.Component {
                 }}
               >
                 <span className="cd-dot" />
-                <span className="cd-label">Teams</span>
+                <span className="cd-label">My Work</span>
               </a>
             </li>
-            <li>
-              <a
-                href="#projects"
-                data-number="5"
-                className=""
-                onClick={e => {
-                  var isMobile = navigator.userAgent.match(
-                    /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-                  );
-                  if (isMobile) {
-                    // if we are on mobile device the scroll into view will be managed by the browser
-                  } else {
-                    e.preventDefault();
-                    this.smoothScroll("projects");
-                  }
-                }}
-              >
-                <span className="cd-dot" />
-                <span className="cd-label">Projects</span>
-              </a>
-            </li>
-            <li>
+          
+            <li className="hide">
               <a
                 href="#pricing"
                 data-number="6"
@@ -230,8 +210,8 @@ class SectionsPage extends React.Component {
                   }
                 }}
               >
-                <span className="cd-dot" />
-                <span className="cd-label">Pricing</span>
+              {/*   <span className="cd-dot" />
+                <span className="cd-label">Pricing</span> */}
               </a>
             </li>
             <li>

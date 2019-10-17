@@ -1,11 +1,5 @@
 import React from "react";
-// react components used to create a google map
-import {
-  withScriptjs,
-  withGoogleMap,
-  GoogleMap,
-  Marker
-} from "react-google-maps";
+
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 import Checkbox from "@material-ui/core/Checkbox";
@@ -29,80 +23,7 @@ import contactsStyle from "assets/jss/material-kit-pro-react/views/sectionsSecti
 
 import city from "assets/img/examples/city.jpg";
 
-const RegularMap = withScriptjs(
-  withGoogleMap(props => (
-    <GoogleMap
-      defaultZoom={14}
-      defaultCenter={{ lat: 44.43353, lng: 26.093928 - 0.025 }}
-      defaultOptions={{
-        scrollwheel: false,
-        zoomControl: true,
-        styles: [
-          {
-            featureType: "water",
-            stylers: [
-              { saturation: 43 },
-              { lightness: -11 },
-              { hue: "#0088ff" }
-            ]
-          },
-          {
-            featureType: "road",
-            elementType: "geometry.fill",
-            stylers: [
-              { hue: "#ff0000" },
-              { saturation: -100 },
-              { lightness: 99 }
-            ]
-          },
-          {
-            featureType: "road",
-            elementType: "geometry.stroke",
-            stylers: [{ color: "#808080" }, { lightness: 54 }]
-          },
-          {
-            featureType: "landscape.man_made",
-            elementType: "geometry.fill",
-            stylers: [{ color: "#ece2d9" }]
-          },
-          {
-            featureType: "poi.park",
-            elementType: "geometry.fill",
-            stylers: [{ color: "#ccdca1" }]
-          },
-          {
-            featureType: "road",
-            elementType: "labels.text.fill",
-            stylers: [{ color: "#767676" }]
-          },
-          {
-            featureType: "road",
-            elementType: "labels.text.stroke",
-            stylers: [{ color: "#ffffff" }]
-          },
-          { featureType: "poi", stylers: [{ visibility: "off" }] },
-          {
-            featureType: "landscape.natural",
-            elementType: "geometry.fill",
-            stylers: [{ visibility: "on" }, { color: "#b8cb93" }]
-          },
-          { featureType: "poi.park", stylers: [{ visibility: "on" }] },
-          {
-            featureType: "poi.sports_complex",
-            stylers: [{ visibility: "on" }]
-          },
-          { featureType: "poi.medical", stylers: [{ visibility: "on" }] },
-          {
-            featureType: "poi.business",
-            stylers: [{ visibility: "simplified" }]
-          }
-        ]
-      }}
-    >
-      <Marker position={{ lat: 44.43353, lng: 26.093928 }} />
-    </GoogleMap>
-  ))
-);
+
 
 class SectionContacts extends React.Component {
   constructor(props) {
@@ -248,121 +169,7 @@ class SectionContacts extends React.Component {
           </div>
         </div>
         {/* Contact us 1 END */}
-        {/* Contact us 2 START */}
-        <div className={classes.contacts2}>
-          <div className={classes.map}>
-            <RegularMap
-              googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
-              loadingElement={<div style={{ height: `100%` }} />}
-              containerElement={
-                <div
-                  style={{
-                    height: `100%`,
-                    borderRadius: "6px",
-                    overflow: "hidden"
-                  }}
-                />
-              }
-              mapElement={<div style={{ height: `100%` }} />}
-            />
-          </div>
-          <GridItem xs={12} sm={6} md={6}>
-            <Card className={classes.card2}>
-              <form>
-                <CardHeader contact color="rose" className={classes.textCenter}>
-                  <h4 className={classes.cardTitle}>Contact Us</h4>
-                </CardHeader>
-                <CardBody>
-                  <GridContainer>
-                    <GridItem xs={12} sm={6} md={6}>
-                      <InfoArea
-                        className={classes.infoArea2}
-                        title="Give us a ring"
-                        description={
-                          <span>
-                            Michael Jordan
-                            <br /> +40 762 321 762
-                            <br /> Mon - Fri, 8:00-22:00
-                          </span>
-                        }
-                        icon={Phone}
-                        iconColor="rose"
-                      />
-                    </GridItem>
-                    <GridItem xs={12} sm={6} md={6}>
-                      <InfoArea
-                        className={classes.infoArea2}
-                        title="Find us at the office"
-                        description={
-                          <span>
-                            Bld Mihail Kogalniceanu, nr. 8,
-                            <br /> 7652 Bucharest,
-                            <br /> Romania
-                          </span>
-                        }
-                        icon={PinDrop}
-                        iconColor="rose"
-                      />
-                    </GridItem>
-                  </GridContainer>
-                  <GridContainer>
-                    <GridItem xs={12} sm={6} md={6}>
-                      <CustomInput
-                        labelText="Full Name"
-                        id="first2"
-                        formControlProps={{
-                          fullWidth: true
-                        }}
-                      />
-                    </GridItem>
-                    <GridItem xs={12} sm={6} md={6}>
-                      <CustomInput
-                        labelText="Email Address"
-                        id="email-address2"
-                        formControlProps={{
-                          fullWidth: true
-                        }}
-                      />
-                    </GridItem>
-                  </GridContainer>
-                  <CustomInput
-                    labelText="Your Message"
-                    id="message2"
-                    formControlProps={{
-                      fullWidth: true
-                    }}
-                    inputProps={{
-                      multiline: true,
-                      rows: 5
-                    }}
-                  />
-                </CardBody>
-                <CardFooter className={classes.justifyContentBetween}>
-                  <FormControlLabel
-                    control={
-                      <Checkbox
-                        tabIndex={-1}
-                        onClick={() => this.handleToggle(2)}
-                        checkedIcon={<Check className={classes.checkedIcon} />}
-                        icon={<Check className={classes.uncheckedIcon} />}
-                        classes={{
-                          checked: classes.checked,
-                          root: classes.checkRoot
-                        }}
-                      />
-                    }
-                    classes={{ label: classes.label }}
-                    label="I'm not a robot"
-                  />
-                  <Button color="rose" className={classes.pullRight}>
-                    Send Message
-                  </Button>
-                </CardFooter>
-              </form>
-            </Card>
-          </GridItem>
-        </div>
-        {/* Contact us 2 END */}
+      
       </div>
     );
   }
