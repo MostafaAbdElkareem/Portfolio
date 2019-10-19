@@ -5,20 +5,16 @@ import classNames from 'classnames';
 import Carousel from 'react-slick';
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
 // @material-ui/icons
-import Share from '@material-ui/icons/Share';
-import ShoppingCart from '@material-ui/icons/ShoppingCart';
 // core components
-import Header from 'components/Header/Header.jsx';
 import Button from 'components/CustomButtons/Button.jsx';
 import GridContainer from 'components/Grid/GridContainer.jsx';
 import GridItem from 'components/Grid/GridItem.jsx';
 import headersStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx';
-import dg1 from 'assets/img/dg1.jpg';
-import dg2 from 'assets/img/dg2.jpg';
-import dg3 from 'assets/img/dg3.jpg';
+import dg1 from 'assets/img/web-dev.jpg';
+import dg3 from 'assets/img/ux.jpg';
+import avatar from 'assets/img/avatar.jpg';
+import resume from 'downloads/Mostafa-Abdallah_Resume.docx';
 
 function SectionHeaders({ ...props }) {
 	const { classes, ...rest } = props;
@@ -38,70 +34,104 @@ function SectionHeaders({ ...props }) {
 			{/* HEADER 3 START */}
 			<div>
 				<Carousel {...settings}>
-					{/* Carousel 1 START */}
-					<div>
-						<div className={classes.pageHeader} style={{ backgroundImage: `url("${dg1}")` }}>
-							<div className={classes.container}>
-								<GridContainer>
-									<GridItem xs={12} sm={6} md={6}>
-										<h1 className={classes.title}>Material Kit PRO React</h1>
-										<h4>
-											Dolce & Gabbana is a luxury Italian fashion house founded in 1985 in Legnano
-											by Italian designers Domenico Dolce and Stefano Gabbana. The two met in
-											Milan in 1980 and designed for the same fashion house.
-										</h4>
-										<br />
-										<Button color="danger" size="lg">
-											Read more
-										</Button>
-										<Button justIcon color="white" simple>
-											<i className="fab fa-twitter" />
-										</Button>
-										<Button justIcon color="white" simple>
-											<i className="fab fa-facebook-square" />
-										</Button>
-										<Button justIcon color="white" simple>
-											<i className="fab fa-get-pocket" />
-										</Button>
-									</GridItem>
-								</GridContainer>
-							</div>
-						</div>
-					</div>
-					{/* Carousel 1 END */}
-
 					{/* Carousel 3 START */}
 					<div>
-						<div className={classes.pageHeader} style={{ backgroundImage: `url("${dg3}")` }}>
+						<div
+							className={classes.pageHeader}
+							style={{ backgroundImage: `url("${dg3}")`, backgroundSize: 'cover' }}
+						>
 							<div className={classes.container}>
 								<GridContainer>
+									<GridItem xs={12} sm={5} md={5}>
+										<img
+											src={avatar}
+											alt=""
+											style={{
+												width: '250px',
+												borderRadius: '150px',
+												border: '15px #ffffff1f solid',
+												marginTop: '10%'
+											}}
+										/>
+									</GridItem>
 									<GridItem
 										xs={12}
 										sm={7}
 										md={7}
 										className={classNames(classes.mlAuto, classes.textRight)}
 									>
-										<h1 className={classes.title}>New Collection 50% Off</h1>
+										<h4>ABOUT ME | MY EXPERISE</h4>
+										<h1 className={classes.title}>UX & Visual Design</h1>
 										<h4>
-											There's no doubt that Tesla is delighted with the interest, but the data
-											also raises a few questions. How long will it take for Tesla to fulfill all
-											those extra orders?
+											Considerable knowledge of designing complex digital solutions, Extensive
+											experience in using UX design best practices, and a deep understanding of
+											mobile-first and responsive design specifications.
 										</h4>
 										<br />
-										<div>
-											<Button color="white" simple size="lg">
-												<Share /> Share Offer
-											</Button>
-											<Button color="danger" size="lg">
-												<ShoppingCart /> Shop now
-											</Button>
-										</div>
+										<Button color="danger" size="lg">
+											<a style={{ color: '#fff' }} href={resume}>
+												Download My Resume
+											</a>
+										</Button>
+										<Button justIcon color="white" simple>
+											<a
+												href="https://www.linkedin.com/in/mostafaabdelkareem/"
+												target="_blank"
+												rel="noopener noreferrer"
+												style={{ color: '#fff' }}
+											>
+												<i class="fab fa-linkedin-in" />
+											</a>
+										</Button>
+										<Button justIcon color="white" simple>
+											<a
+												href="https://www.behance.net/mostafakimcc7c"
+												target="_blank"
+												rel="noopener noreferrer"
+												style={{ color: '#fff' }}
+											>
+												<i class="fab fa-behance" />
+											</a>
+										</Button>
+										<Button justIcon color="white" simple>
+											<a
+												href="https://github.com/MostafaAbdElkareem"
+												target="_blank"
+												rel="noopener noreferrer"
+												style={{ color: '#fff' }}
+											>
+												<i class="fab fa-github" />
+											</a>
+										</Button>
 									</GridItem>
 								</GridContainer>
 							</div>
 						</div>
 					</div>
 					{/* Carousel 3 END */}
+					{/* Carousel 1 START */}
+					<div>
+						<div
+							className={classes.pageHeader}
+							style={{ backgroundImage: `url("${dg1}")`, backgroundSize: 'cover' }}
+						>
+							<div className={classes.container}>
+								<GridContainer>
+									<GridItem xs={12} sm={6} md={6}>
+										<h4>ABOUT ME | MY EXPERISE</h4>
+										<h1 className={classes.title}>UI & Front-End Development</h1>
+										<h4>
+											Hands-on expertise working with the latest releases of ReactJS and Angular –
+											SASS and LESS CSS pre-processors - Bootstrap / Materialize CSS frameworks to
+											build web applications with extensive experience in building reusable
+											Components.
+										</h4>
+									</GridItem>
+								</GridContainer>
+							</div>
+						</div>
+					</div>
+					{/* Carousel 1 END */}
 				</Carousel>
 			</div>
 			{/* HEADER 3 END */}

@@ -53,7 +53,7 @@ class Header extends React.Component {
 		}
 	}
 	render() {
-		const { classes, color, links, brand, fixed, absolute } = this.props;
+		const { classes, color, links, fixed, absolute } = this.props;
 		const appBarClasses = classNames({
 			[classes.appBar]: true,
 			[classes[color]]: color,
@@ -65,7 +65,7 @@ class Header extends React.Component {
 				<Toolbar className={classes.container}>
 					<Button className={classes.title}>
 						<Link to="/">
-							<img src={logo} style={{ height: '85px', marginTop: '-15px' }} />
+							<img src={logo} style={{ height: '85px', marginTop: '-15px' }} alt="" />
 						</Link>
 					</Button>
 					<Hidden smDown implementation="css" className={classes.hidden}>
