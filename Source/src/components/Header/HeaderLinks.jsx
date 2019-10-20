@@ -71,6 +71,21 @@ function HeaderLinks({ ...props }) {
 					<Dns className={classes.dropdownIcons} /> About Me
 				</Link>
 			</ListItem>
+
+			<ListItem className={classes.listItem}>
+				<Link
+					to="/sections#projects"
+					className={classes.dropdownLink}
+					onClick={(e) => smoothScroll(e, 'projects')}
+				>
+					<ListIcon className={classes.dropdownIcons} /> Key Projects
+				</Link>
+			</ListItem>
+			<ListItem className={classes.listItem}>
+				<Link to="/sections#work" className={classes.dropdownLink} onClick={(e) => smoothScroll(e, 'work')}>
+					<People className={classes.dropdownIcons} /> My Work
+				</Link>
+			</ListItem>
 			<ListItem className={classes.listItem}>
 				<Link
 					to="/sections#features"
@@ -80,17 +95,6 @@ function HeaderLinks({ ...props }) {
 					<Build className={classes.dropdownIcons} /> Qualification
 				</Link>
 			</ListItem>
-			<ListItem className={classes.listItem}>
-				<Link to="/sections#blogs" className={classes.dropdownLink} onClick={(e) => smoothScroll(e, 'blogs')}>
-					<ListIcon className={classes.dropdownIcons} /> Achievements
-				</Link>
-			</ListItem>
-			<ListItem className={classes.listItem}>
-				<Link to="/sections#teams" className={classes.dropdownLink} onClick={(e) => smoothScroll(e, 'teams')}>
-					<People className={classes.dropdownIcons} /> My Work
-				</Link>
-			</ListItem>
-
 			<ListItem className={classes.listItem}>
 				<Link
 					to="/sections#testimonials"

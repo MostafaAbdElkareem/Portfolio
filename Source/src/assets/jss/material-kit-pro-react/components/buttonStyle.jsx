@@ -94,10 +94,10 @@ const buttonStyle = {
         width: "100%",
         transform: "none",
         left: "0px",
-        top: "0px",
+        top: "5px",
         height: "100%",
         lineHeight: "41px",
-        fontSize: "20px"
+        fontSize: "32px"
       }
     }
   },
@@ -700,9 +700,9 @@ const buttonStyle = {
   justIcon: {
     paddingLeft: "12px",
     paddingRight: "12px",
-    fontSize: "20px",
-    height: "41px",
-    minWidth: "41px",
+    fontSize: "45px",
+    height: "60px",
+    minWidth: "60px",
     width: "41px",
     "& .fab,& .fas,& .far,& .fal,& svg,& .material-icons": {
       marginRight: "0px"
