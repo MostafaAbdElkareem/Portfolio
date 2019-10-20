@@ -47,10 +47,10 @@ function SectionHeaders({ ...props }) {
 											src={avatar}
 											alt=""
 											style={{
-												width: '55%',
+												width: '40%',
 												borderRadius: '150px',
-												border: '15px #ffffff1f solid',
-												marginTop: '20%'
+												border: '10px solid #f3fffa82',
+												marginTop: '0%'
 											}}
 										/>
 									</GridItem>
@@ -60,7 +60,7 @@ function SectionHeaders({ ...props }) {
 										md={7}
 										className={classNames(classes.mlAuto, classes.textRight)}
 									>
-										<h4>ABOUT ME | MY EXPERISE</h4>
+										<h4>ABOUT ME | My experience</h4>
 										<h1 className={classes.title}>UX & Visual Design</h1>
 										<h4>
 											Considerable knowledge of designing complex digital solutions, Extensive
@@ -119,7 +119,7 @@ function SectionHeaders({ ...props }) {
 							<div className={classes.container}>
 								<GridContainer>
 									<GridItem xs={12} sm={6} md={6}>
-										<h4>ABOUT ME | MY EXPERISE</h4>
+										<h4>ABOUT ME | My experience</h4>
 										<h1 className={classes.title}>UI & Front-End Development</h1>
 										<h4>
 											Hands-on expertise working with the latest releases of ReactJS and Angular –
