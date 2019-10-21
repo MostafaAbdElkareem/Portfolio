@@ -47,16 +47,6 @@ function SectionFeatures({ ...props }) {
 								<InfoArea
 									vertical
 									className={classes.infoArea5}
-									icon={FormatPaint}
-									title="Visual Design"
-									description={<p>Visual Design using Adobe Photoshop and Illustrator.</p>}
-									iconColor="danger"
-								/>
-							</GridItem>
-							<GridItem xs={12} sm={4} className={classes.gridItem}>
-								<InfoArea
-									vertical
-									className={classes.infoArea5}
 									icon={Code}
 									title="Front-End Development"
 									description={
@@ -68,8 +58,7 @@ function SectionFeatures({ ...props }) {
 									iconColor="primary"
 								/>
 							</GridItem>
-						</GridContainer>
-						<GridContainer className={classes.gridContainer}>
+
 							<GridItem xs={12} sm={4} className={classes.gridItem}>
 								<InfoArea
 									vertical
@@ -82,6 +71,18 @@ function SectionFeatures({ ...props }) {
 											Portals/Intranet & Public Web sites{' '}
 										</p>
 									}
+								/>
+							</GridItem>
+						</GridContainer>
+						<GridContainer className={classes.gridContainer}>
+							<GridItem xs={12} sm={4} className={classes.gridItem}>
+								<InfoArea
+									vertical
+									className={classes.infoArea5}
+									icon={FormatPaint}
+									title="Visual Design"
+									description={<p>Visual Design using Adobe Photoshop and Illustrator.</p>}
+									iconColor="danger"
 								/>
 							</GridItem>
 

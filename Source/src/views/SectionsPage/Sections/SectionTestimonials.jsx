@@ -12,6 +12,7 @@ import Card from 'components/Card/Card.jsx';
 import CardBody from 'components/Card/CardBody.jsx';
 import CardAvatar from 'components/Card/CardAvatar.jsx';
 import Muted from 'components/Typography/Muted.jsx';
+import Button from 'components/CustomButtons/Button.jsx';
 
 import testimonialsStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/testimonialsStyle.jsx';
 import kamal from 'assets/img/faces/kamal.jpg';
@@ -29,7 +30,7 @@ function SectionTestimonials({ ...props }) {
 	const { classes, ...rest } = props;
 	const settings = {
 		dots: true,
-		infinite: true,
+		infinite: false,
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -288,6 +289,9 @@ function SectionTestimonials({ ...props }) {
 							</Carousel>
 						</GridItem>
 					</GridContainer>
+					<Button color="linkedin" href="https://www.linkedin.com/in/mostafaabdelkareem/" target="new">
+						<i className="fab fa-linkedin" /> More About Me on LinkedIn
+					</Button>
 				</div>
 			</div>
 			{/* Testimonials 2 END */}

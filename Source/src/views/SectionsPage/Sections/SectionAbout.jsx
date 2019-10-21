@@ -63,7 +63,7 @@ function SectionHeaders({ ...props }) {
 										<h4>ABOUT ME | My experience</h4>
 										<h1 className={classes.title}>UX & Visual Design</h1>
 										<h4>
-											Considerable knowledge of designing complex digital solutions, Extensive
+											Intensive knowledge of designing complex digital solutions, Extensive
 											experience in using UX design best practices, and a deep understanding of
 											mobile-first and responsive design specifications.
 										</h4>
@@ -122,10 +122,10 @@ function SectionHeaders({ ...props }) {
 										<h4>ABOUT ME | My experience</h4>
 										<h1 className={classes.title}>UI & Front-End Development</h1>
 										<h4>
-											Hands-on expertise working with the latest releases of ReactJS and Angular –
-											SASS and LESS CSS pre-processors - Bootstrap / Materialize CSS frameworks to
-											build web applications with extensive experience in building reusable
-											Components.
+											Hands-on expertise working with HTML, CSS and the latest releases of ReactJS
+											& Angular – SASS & LESS CSS pre-processors - Bootstrap / Materialize CSS
+											frameworks and Popular CMSs like (Sharepoint & WordPress) to build web
+											applications with extensive experience in building reusable Components.
 										</h4>
 									</GridItem>
 								</GridContainer>
