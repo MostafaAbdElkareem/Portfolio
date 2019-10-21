@@ -2,7 +2,7 @@ import SectionsPage from 'views/SectionsPage/SectionsPage.jsx';
 
 var indexRoutes = [
 	{
-		path: '/sections',
+		path: '/',
 		name: 'SectionsPage',
 		component: SectionsPage
 	}

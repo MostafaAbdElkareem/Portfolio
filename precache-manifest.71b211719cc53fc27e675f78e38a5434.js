@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/rs.0b5efe82.jpg"
   },
   {
-    "revision": "f76e2d92243cc2b5679b",
-    "url": "/static/css/main.338f4c2b.chunk.css"
+    "revision": "68c155b5860d15d8bf92",
+    "url": "/static/css/main.2ce21d72.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/static/media/foodklore.0e35895c.jpg"
   },
   {
-    "revision": "f76e2d92243cc2b5679b",
-    "url": "/static/js/main.f76e2d92.chunk.js"
+    "revision": "68c155b5860d15d8bf92",
+    "url": "/static/js/main.68c155b5.chunk.js"
   },
   {
     "revision": "c9ab26162a7a45bf5ecb18c587a18702",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/static/media/contact.d8d78fdd.jpg"
   },
   {
-    "revision": "25682f241e7930726aec4edbb8777b33",
+    "revision": "d61557620ff9a28853311a26483344ce",
     "url": "/index.html"
   }
 ];

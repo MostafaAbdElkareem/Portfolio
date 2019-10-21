@@ -363,9 +363,11 @@ function SectionTeams({ ...props }) {
 							</Card>
 						</GridItem>
 					</GridContainer>
-					<Button color="behance" href="https://www.behance.net/desha-portfolio" target="new">
-						<i className="fab fa-behance" /> More Projects on Behance
-					</Button>
+					<div className={classes.textCenter}>
+						<Button color="behance" href="https://www.behance.net/desha-portfolio" target="new">
+							<i className="fab fa-behance" /> More Projects on Behance
+						</Button>
+					</div>
 				</div>
 			</div>
 			{/* Team 5 END */}

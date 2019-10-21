@@ -42,6 +42,15 @@ function SectionTestimonials({ ...props }) {
 			<div className={`${classes.testimonials} ${classes.sectionDark} ${classes.testimonial2}`}>
 				<div className={classes.container}>
 					<GridContainer>
+						<GridItem
+							xs={12}
+							sm={8}
+							md={8}
+							className={`${classes.mlAuto} ${classes.mrAuto} ${classes.textCenter}`}
+						>
+							<h2 className={classes.title}>Testimonials </h2>
+						</GridItem>
+
 						<GridItem xs={12} sm={12} md={12}>
 							<Carousel {...settings}>
 								<div>
@@ -289,9 +298,11 @@ function SectionTestimonials({ ...props }) {
 							</Carousel>
 						</GridItem>
 					</GridContainer>
-					<Button color="linkedin" href="https://www.linkedin.com/in/mostafaabdelkareem/" target="new">
-						<i className="fab fa-linkedin" /> More About Me on LinkedIn
-					</Button>
+					<div className={classes.textCenter}>
+						<Button color="linkedin" href="https://www.linkedin.com/in/mostafaabdelkareem/" target="new">
+							<i className="fab fa-linkedin" /> More About Me on LinkedIn
+						</Button>
+					</div>
 				</div>
 			</div>
 			{/* Testimonials 2 END */}

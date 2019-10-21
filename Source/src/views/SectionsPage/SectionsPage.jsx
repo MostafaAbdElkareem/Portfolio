@@ -113,27 +113,6 @@ class SectionsPage extends React.Component {
 						</li>
 						<li>
 							<a
-								href="#features"
-								data-number="2"
-								className=""
-								onClick={(e) => {
-									var isMobile = navigator.userAgent.match(
-										/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
-									);
-									if (isMobile) {
-										// if we are on mobile device the scroll into view will be managed by the browser
-									} else {
-										e.preventDefault();
-										this.smoothScroll('features');
-									}
-								}}
-							>
-								<span className="cd-dot" />
-								<span className="cd-label">Qualifications</span>
-							</a>
-						</li>
-						<li>
-							<a
 								href="#projects"
 								data-number="3"
 								className=""
@@ -174,7 +153,6 @@ class SectionsPage extends React.Component {
 								<span className="cd-label">My Work</span>
 							</a>
 						</li>
-
 						<li className="hide">
 							<a
 								href="#pricing"
@@ -196,6 +174,28 @@ class SectionsPage extends React.Component {
                 <span className="cd-label">Pricing</span> */}
 							</a>
 						</li>
+						<li>
+							<a
+								href="#features"
+								data-number="2"
+								className=""
+								onClick={(e) => {
+									var isMobile = navigator.userAgent.match(
+										/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
+									);
+									if (isMobile) {
+										// if we are on mobile device the scroll into view will be managed by the browser
+									} else {
+										e.preventDefault();
+										this.smoothScroll('features');
+									}
+								}}
+							>
+								<span className="cd-dot" />
+								<span className="cd-label">Qualifications</span>
+							</a>
+						</li>
+
 						<li>
 							<a
 								href="#testimonials"

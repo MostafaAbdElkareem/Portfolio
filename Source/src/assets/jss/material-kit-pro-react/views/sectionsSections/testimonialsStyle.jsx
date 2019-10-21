@@ -51,8 +51,7 @@ const testimonialsSection = {
 			display: 'block',
 			left: '0',
 			top: '0',
-			content: "''",
-			backgroundColor: 'rgba(' + hexToRgb(blackColor) + ', 0.7)'
+			content: "''"
 		},
 		'& $title': {
 			color: whiteColor
@@ -63,6 +62,7 @@ const testimonialsSection = {
 	},
 	testimonials: {
 		padding: '80px 0 20px 0',
+		background: '#010102',
 		'& $cardDescription': {
 			fontStyle: 'italic'
 		}

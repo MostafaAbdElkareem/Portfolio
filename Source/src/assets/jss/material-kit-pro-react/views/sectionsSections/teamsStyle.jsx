@@ -38,7 +38,8 @@ const teamsSection = {
 		...section,
 		position: 'relative',
 		'& $title': {
-			color: blackColor
+			color: blackColor,
+			paddingTop: '80px'
 		},
 		'& $descriptionWhite': {
 			color: 'rgba(' + hexToRgb(blackColor) + ', 0.76)'
