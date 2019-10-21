@@ -64,7 +64,7 @@ class Header extends React.Component {
 			<AppBar className={appBarClasses}>
 				<Toolbar className={classes.container}>
 					<Button className={classes.title}>
-						<Link to="/">
+						<Link to="/#headers">
 							<img src={logo} style={{ height: '85px', marginTop: '-15px' }} alt="" />
 						</Link>
 					</Button>

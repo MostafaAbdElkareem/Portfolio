@@ -21,7 +21,7 @@ import Button from 'components/CustomButtons/Button.jsx';
 
 import contactsStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/contactsStyle.jsx';
 
-import city from 'assets/img/examples/city.jpg';
+import contact from 'assets/img/contact.jpg';
 
 class SectionContacts extends React.Component {
 	constructor(props) {
@@ -50,7 +50,10 @@ class SectionContacts extends React.Component {
 		return (
 			<div className="cd-section" {...rest}>
 				{/* Contact us 1 START */}
-				<div className={`${classes.contacts} ${classes.section}`} style={{ backgroundImage: `url(${city})` }}>
+				<div
+					className={`${classes.contacts} ${classes.section}`}
+					style={{ backgroundImage: `url(${contact})`, backgroundSize: 'cover' }}
+				>
 					<div className={classes.container}>
 						<GridContainer>
 							<GridItem xs={12} sm={5} md={5}>
@@ -63,7 +66,7 @@ class SectionContacts extends React.Component {
 									title="Send me E-mail"
 									description={
 										<span>
-											<a href="mailto:mostafa.abdelkareem@hotmail.com">
+											<a style={{ color: '#fff' }} href="mailto:mostafa.abdelkareem@hotmail.com">
 												mostafa.abdelkareem@hotmail.com
 											</a>
 										</span>

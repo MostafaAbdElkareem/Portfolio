@@ -10,14 +10,24 @@ import Card from 'components/Card/Card.jsx';
 import CardHeader from 'components/Card/CardHeader.jsx';
 import CardBody from 'components/Card/CardBody.jsx';
 import teamsStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/teamsStyle.jsx';
-import Info from 'components/Typography/Info.jsx';
-import Danger from 'components/Typography/Danger.jsx';
-import Success from 'components/Typography/Success.jsx';
-import TrendingUp from '@material-ui/icons/TrendingUp';
 
-import blog1 from 'assets/img/examples/blog1.jpg';
-import blog5 from 'assets/img/examples/blog5.jpg';
-import blog6 from 'assets/img/examples/blog6.jpg';
+import Badge from 'components/Badge/Badge.jsx';
+import Button from 'components/CustomButtons/Button.jsx';
+/* images */
+
+import rs from 'assets/img/rs.jpg';
+import prot from 'assets/img/prototype.jpg';
+import dsh from 'assets/img/dashboard.jpg';
+import bnr from 'assets/img/banner.jpg';
+import gnx from 'assets/img/genx.jpg';
+import qnts from 'assets/img/qnts.jpg';
+import uig from 'assets/img/uig.jpg';
+import mint from 'assets/img/mint.jpg';
+import lyr2 from 'assets/img/layer2.png';
+import cert from 'assets/img/cert.jpg';
+import ws from 'assets/img/website.jpg';
+import fk from 'assets/img/fk.jpg';
+import intranet from 'assets/img/intranet.png';
 
 function SectionTeams({ ...props }) {
 	const { classes, ...rest } = props;
@@ -35,8 +45,15 @@ function SectionTeams({ ...props }) {
 						>
 							<h2 className={classes.title}>My Work</h2>
 							<h5 className={classes.descriptionWhite}>
-								This is the paragraph where you can write more details about your team. Keep you user
-								engaged by providing meaningful information.
+								<Badge color="primary">Photoshop</Badge>
+								<Badge color="success">Wireframes, Prototype</Badge>
+								<Badge color="danger">Sharepoint</Badge>
+								<Badge color="rose">Logo Design</Badge>
+								<Badge color="info">Web Site</Badge>
+								<Badge color="danger">HTML, CSS, Javascript</Badge>
+								<Badge color="warning">Certificates</Badge>
+								<Badge color="success">Presentation</Badge>
+								<Badge color="danger">Wordpress</Badge>
 							</h5>
 						</GridItem>
 					</GridContainer>
@@ -44,26 +61,80 @@ function SectionTeams({ ...props }) {
 						<GridItem xs={12} sm={6} md={4} lg={3}>
 							<Card blog plain>
 								<CardHeader image plain>
-									<a href="#pablo" onClick={(e) => e.preventDefault()}>
-										<img src={blog5} alt="..." />
-										<div className={classes.cardTitleAbsolute}>This Summer Will be Awesome</div>
+									<a href="https://www.behance.net/gallery/60064313/Achievements" target="new">
+										<img src={cert} alt="..." />
 									</a>
-									<div
-										className={classes.coloredShadow}
-										style={{
-											backgroundImage: `url(${blog5})`,
-											opacity: '1'
-										}}
-									/>
 								</CardHeader>
 								<CardBody plain>
-									<Info>
-										<h6 className={classes.cardCategory}>FASHION</h6>
-									</Info>
+									<h4 className={classes.cardTitle}>
+										<a href="https://www.behance.net/gallery/60064313/Achievements" target="new">
+											Profissional Certificates
+										</a>
+									</h4>
+
 									<div className={classes.cardDescription}>
-										Don't be scared of the truth because we need to restart the human foundation in
-										truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but
-										the back is...
+										<Badge color="warning">Certificates</Badge>
+									</div>
+								</CardBody>
+							</Card>
+
+							<Card blog plain>
+								<CardHeader image plain>
+									<a href="https://www.behance.net/gallery/79273549/Ready-Stack" target="new">
+										<img src={rs} alt="..." />
+									</a>
+								</CardHeader>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a href="https://www.behance.net/gallery/79273549/Ready-Stack" target="new">
+											Ready Stack Logo Trial
+										</a>
+									</h4>
+
+									<div className={classes.cardDescription}>
+										<Badge color="rose">Logo Design</Badge>
+										<Badge color="primary">Photoshop</Badge>
+									</div>
+								</CardBody>
+							</Card>
+							<Card blog plain>
+								<CardHeader image plain>
+									<a href="https://www.behance.net/gallery/79033017/Portfolio-Optimizer" target="new">
+										<img src={dsh} alt="..." />
+									</a>
+								</CardHeader>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a
+											href="https://www.behance.net/gallery/79033017/Portfolio-Optimizer"
+											target="new"
+										>
+											Portfolio Optimizer Dashboard
+										</a>
+									</h4>
+									<div>
+										<Badge color="primary">Photoshop</Badge>
+										<Badge color="success">Wireframes, Prototype</Badge>
+										<Badge color="danger">HTML, CSS, Javascript</Badge>
+									</div>
+								</CardBody>
+							</Card>
+							<Card blog plain>
+								<CardHeader image plain>
+									<a href="https://www.behance.net/gallery/76240971/Foodklore" target="new">
+										<img src={fk} alt="..." />
+									</a>
+								</CardHeader>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a href="https://www.behance.net/gallery/76240971/Foodklore" target="new">
+											FookKlore Logo Trials
+										</a>
+									</h4>
+									<div>
+										<Badge color="primary">Photoshop</Badge>
+										<Badge color="danger">Wordpress</Badge>
+										<Badge color="danger">HTML, CSS, Javascript</Badge>
 									</div>
 								</CardBody>
 							</Card>
@@ -71,90 +142,230 @@ function SectionTeams({ ...props }) {
 						<GridItem xs={12} sm={6} md={4} lg={3}>
 							<Card blog plain>
 								<CardHeader image plain>
-									<a href="#pablo" onClick={(e) => e.preventDefault()}>
-										<img src={blog1} alt="..." />
+									<a
+										href="https://www.behance.net/gallery/79033347/Seeds-Portal-Application"
+										target="new"
+									>
+										<img src={prot} alt="..." />
 									</a>
-									<div
-										className={classes.coloredShadow}
-										style={{
-											backgroundImage: `url(${blog1})`,
-											opacity: '1'
-										}}
-									/>
 								</CardHeader>
 								<CardBody plain>
-									<Success>
-										<h6 className={classes.cardCategory}>Legal</h6>
-									</Success>
 									<h4 className={classes.cardTitle}>
-										<a href="#pablo" onClick={(e) => e.preventDefault()}>
-											5 Common Legal Mistakes That Can Trip-Up Your Startup
+										<a
+											href="https://www.behance.net/gallery/79033347/Seeds-Portal-Application"
+											target="new"
+										>
+											Seeds Portal Prototype
 										</a>
 									</h4>
-									<p className={classes.cardDescription}>
-										Don't be scared of the truth because we need to restart the human foundation in
-										truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but
-										the back is...
-									</p>
+									<div>
+										<Badge color="primary">Photoshop</Badge>
+										<Badge color="success">Wireframes, Prototype</Badge>
+										<Badge color="danger">HTML, CSS, Javascript</Badge>
+									</div>
+								</CardBody>
+							</Card>
+							<Card blog plain>
+								<CardHeader image plain>
+									<a href="https://www.behance.net/gallery/60062985/UIG-Logo" target="new">
+										<img src={uig} alt="..." />
+									</a>
+								</CardHeader>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a href="https://www.behance.net/gallery/60062985/UIG-Logo" target="new">
+											United International Group
+										</a>
+									</h4>
+									<div>
+										<Badge color="primary">Photoshop</Badge>
+										<Badge color="rose">Logo Design</Badge>
+										<Badge color="danger">Wordpress</Badge>
+										<Badge color="danger">HTML, CSS, Javascript</Badge>
+									</div>
+								</CardBody>
+							</Card>
+							<Card blog plain>
+								<CardHeader image plain>
+									<a
+										href="https://www.behance.net/gallery/60063195/Layer-2-Sub-Entities-Logos"
+										target="new"
+									>
+										<img src={lyr2} alt="..." />
+									</a>
+								</CardHeader>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a
+											href="https://www.behance.net/gallery/60063195/Layer-2-Sub-Entities-Logos"
+											target="new"
+										>
+											United International Group
+										</a>
+									</h4>
+									<div>
+										<Badge color="primary">Photoshop</Badge>
+										<Badge color="success">Wireframes, Prototype</Badge>
+										<Badge color="danger">HTML, CSS, Javascript</Badge>
+									</div>
 								</CardBody>
 							</Card>
 						</GridItem>
 						<GridItem xs={12} sm={6} md={4} lg={3}>
 							<Card blog plain>
 								<CardHeader image plain>
-									<a href="#pablo" onClick={(e) => e.preventDefault()}>
-										<img src={blog6} alt="..." />
+									<a href="https://www.behance.net/gallery/60063363/Dashboard-Concept" target="new">
+										<img src={mint} alt="..." />
 									</a>
-									<div
-										className={classes.coloredShadow}
-										style={{
-											backgroundImage: `url(${blog6})`,
-											opacity: '1'
-										}}
-									/>
 								</CardHeader>
 								<CardBody plain>
-									<Danger>
-										<h6 className={classes.cardCategory}>
-											<TrendingUp /> TRENDING
-										</h6>
-									</Danger>
 									<h4 className={classes.cardTitle}>
-										<a href="#pablo" onClick={(e) => e.preventDefault()}>
-											To Grow Your Business Start Focusing on Your Employees
+										<a
+											href="https://www.behance.net/gallery/60063363/Dashboard-Concept"
+											target="new"
+										>
+											Maintelleigance Dashboard Concept
 										</a>
 									</h4>
+									<div>
+										<Badge color="primary">Photoshop</Badge>
+										<Badge color="success">Wireframes, Prototype</Badge>
+										<Badge color="danger">HTML, CSS, Javascript</Badge>
+									</div>
+								</CardBody>
+							</Card>
+							<Card blog plain>
+								<CardHeader image plain>
+									<a
+										href="https://www.behance.net/gallery/79033347/Seeds-Portal-Application"
+										target="new"
+									>
+										<img src={bnr} alt="..." />
+									</a>
+								</CardHeader>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a
+											href="https://www.behance.net/gallery/79033347/Seeds-Portal-Application"
+											target="new"
+										>
+											Agile Logo Concept
+										</a>
+									</h4>
+									<div>
+										<Badge color="primary">Photoshop</Badge>
+										<Badge color="success">Wireframes, Prototype</Badge>
+										<Badge color="danger">HTML, CSS, Javascript</Badge>
+									</div>
+								</CardBody>
+							</Card>
+							<Card blog plain>
+								<CardHeader image plain>
+									<a
+										href="https://www.behance.net/gallery/52058851/Syngenta-Genex-Intranet"
+										target="new"
+									>
+										<img src={gnx} alt="..." />
+									</a>
+								</CardHeader>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a
+											href="https://www.behance.net/gallery/52058851/Syngenta-Genex-Intranet"
+											target="new"
+										>
+											Syngenta Genex Intranet Concept
+										</a>
+									</h4>
+									<div>
+										<Badge color="primary">Photoshop</Badge>
+										<Badge color="success">Wireframes, Prototype</Badge>
+										<Badge color="danger">Sharepoint</Badge>
+										<Badge color="danger">HTML, CSS, Javascript</Badge>
+									</div>
 								</CardBody>
 							</Card>
 						</GridItem>
 						<GridItem xs={12} sm={6} md={4} lg={3}>
 							<Card blog plain>
 								<CardHeader image plain>
-									<a href="#pablo" onClick={(e) => e.preventDefault()}>
-										<img src={blog5} alt="..." />
-										<div className={classes.cardTitleAbsolute}>This Summer Will be Awesome</div>
+									<a href="https://www.behance.net/gallery/79032611/Cole-Engineering" target="new">
+										<img src={intranet} alt="..." />
 									</a>
-									<div
-										className={classes.coloredShadow}
-										style={{
-											backgroundImage: `url(${blog5})`,
-											opacity: '1'
-										}}
-									/>
 								</CardHeader>
 								<CardBody plain>
-									<Info>
-										<h6 className={classes.cardCategory}>FASHION</h6>
-									</Info>
-									<div className={classes.cardDescription}>
-										Don't be scared of the truth because we need to restart the human foundation in
-										truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but
-										the back is...
+									<h4 className={classes.cardTitle}>
+										<a
+											href="https://www.behance.net/gallery/79032611/Cole-Engineering"
+											target="new"
+										>
+											Sharepoint Online Intranet (O365)
+										</a>
+									</h4>
+									<div>
+										<Badge color="primary">Photoshop</Badge>
+										<Badge color="success">Wireframes, Prototype</Badge>
+										<Badge color="danger">HTML, CSS, Javascript</Badge>
+									</div>
+								</CardBody>
+							</Card>
+							<Card blog plain>
+								<CardHeader image plain>
+									<a
+										href="https://www.behance.net/gallery/60064413/Kuwait-Council-of-Ministers"
+										target="new"
+									>
+										<img src={ws} alt="..." />
+									</a>
+								</CardHeader>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a
+											href="https://www.behance.net/gallery/60064413/Kuwait-Council-of-Ministers"
+											target="new"
+										>
+											Kuwait Council of Ministers Concept
+										</a>
+									</h4>
+									<div>
+										<Badge color="primary">Photoshop</Badge>
+										<Badge color="success">Wireframes, Prototype</Badge>
+										<Badge color="danger">Sharepoint</Badge>
+										<Badge color="danger">HTML, CSS, Javascript</Badge>
+									</div>
+								</CardBody>
+							</Card>
+							<Card blog plain>
+								<CardHeader image plain>
+									<a
+										href="https://www.behance.net/gallery/52059007/Quantas-Concept-Design"
+										target="new"
+									>
+										<img src={qnts} alt="..." />
+									</a>
+								</CardHeader>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a
+											href="https://www.behance.net/gallery/52059007/Quantas-Concept-Design"
+											target="new"
+										>
+											Quantas Concept Design
+										</a>
+									</h4>
+									<div>
+										<Badge color="primary">Photoshop</Badge>
+										<Badge color="success">Wireframes, Prototype</Badge>
+										<Badge color="danger">Sharepoint</Badge>
+										<Badge color="danger">HTML, CSS, Javascript</Badge>
 									</div>
 								</CardBody>
 							</Card>
 						</GridItem>
 					</GridContainer>
+					<Button color="behance" href="https://www.behance.net/desha-portfolio" target="new">
+						<i className="fab fa-behance" /> More Projects on Behance
+					</Button>
 				</div>
 			</div>
 			{/* Team 5 END */}
