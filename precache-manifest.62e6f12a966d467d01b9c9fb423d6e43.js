@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "0b5efe82d2a2c2b2e84dccf2abee22c3",
-    "url": "/static/media/rs.0b5efe82.jpg"
+    "revision": "21817db88a53c7144864d5d58a2ee81d",
+    "url": "/static/media/banner.21817db8.jpg"
   },
   {
-    "revision": "a7f4b718f0c8a1eacf69",
+    "revision": "7535b2b9447924404751",
     "url": "/static/css/main.2ce21d72.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.42ac5946.js"
   },
   {
-    "revision": "f3047eeebd169d8611c3",
-    "url": "/static/js/2.f3047eee.chunk.js"
+    "revision": "a36c30fb72c0c1231f65",
+    "url": "/static/js/2.a36c30fb.chunk.js"
   },
   {
     "revision": "130810fea8edf449da972a7e32833a49",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/avatar.34ee9b2f.jpg"
   },
   {
-    "revision": "9c1d59cf9c165c68c9b357ad86dea28e",
-    "url": "/static/media/Mostafa-Abdallah_Resume.9c1d59cf.docx"
+    "revision": "813f3fc6f2143d32d44c1188dc5314fd",
+    "url": "/static/media/Mostafa-Abdallah_Resume.813f3fc6.docx"
   },
   {
     "revision": "d639f4d6b8274d933d0dc579183585a7",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/static/media/foodklore.0e35895c.jpg"
   },
   {
-    "revision": "a7f4b718f0c8a1eacf69",
-    "url": "/static/js/main.a7f4b718.chunk.js"
+    "revision": "0b5efe82d2a2c2b2e84dccf2abee22c3",
+    "url": "/static/media/rs.0b5efe82.jpg"
   },
   {
     "revision": "c9ab26162a7a45bf5ecb18c587a18702",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/static/media/dashboard.d6b17feb.jpg"
   },
   {
-    "revision": "21817db88a53c7144864d5d58a2ee81d",
-    "url": "/static/media/banner.21817db8.jpg"
+    "revision": "7535b2b9447924404751",
+    "url": "/static/js/main.7535b2b9.chunk.js"
   },
   {
     "revision": "ac60d0d5296c188679aab1b22eaac03f",
@@ -116,7 +116,35 @@ self.__precacheManifest = [
     "url": "/static/media/contact.d8d78fdd.jpg"
   },
   {
-    "revision": "8ba11496211257c478949a68d15441ea",
+    "revision": "d2908270fd094274cd3e5b665b90047f",
+    "url": "/static/media/adobe.d2908270.svg"
+  },
+  {
+    "revision": "e8626702490c135ac7a3b4f6604cdf01",
+    "url": "/static/media/coding.e8626702.svg"
+  },
+  {
+    "revision": "0a337c37f03c0462996b7b03758fa72b",
+    "url": "/static/media/loading-bubbles.0a337c37.svg"
+  },
+  {
+    "revision": "682427786e0ada710b75684f6ac3813b",
+    "url": "/static/media/performance.68242778.svg"
+  },
+  {
+    "revision": "03c3c99f6eb354d629fff55af5b3f8a2",
+    "url": "/static/media/sharepoint.03c3c99f.svg"
+  },
+  {
+    "revision": "adb77ccf7a83e522d6db1b169ff7f5ed",
+    "url": "/static/media/team.adb77ccf.svg"
+  },
+  {
+    "revision": "9643bdd4df4896cf7fcaa5ef3bb1d17f",
+    "url": "/static/media/ux.9643bdd4.svg"
+  },
+  {
+    "revision": "c7ccc4db19d2f02262b0596b037ef6d4",
     "url": "/index.html"
   }
 ];

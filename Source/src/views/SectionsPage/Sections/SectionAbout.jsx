@@ -81,7 +81,7 @@ function SectionHeaders({ ...props }) {
 												rel="noopener noreferrer"
 												style={{ color: '#fff' }}
 											>
-												<i class="fab fa-linkedin-in" />
+												<i className="fab fa-linkedin-in" />
 											</a>
 										</Button>
 										<Button justIcon color="white" simple>
@@ -91,7 +91,7 @@ function SectionHeaders({ ...props }) {
 												rel="noopener noreferrer"
 												style={{ color: '#fff' }}
 											>
-												<i class="fab fa-behance" />
+												<i className="fab fa-behance" />
 											</a>
 										</Button>
 										<Button justIcon color="white" simple>
@@ -101,7 +101,7 @@ function SectionHeaders({ ...props }) {
 												rel="noopener noreferrer"
 												style={{ color: '#fff' }}
 											>
-												<i class="fab fa-github" />
+												<i className="fab fa-github" />
 											</a>
 										</Button>
 									</GridItem>

@@ -14,16 +14,7 @@ import CardAvatar from 'components/Card/CardAvatar.jsx';
 import Muted from 'components/Typography/Muted.jsx';
 import Button from 'components/CustomButtons/Button.jsx';
 import testimonialsStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/testimonialsStyle.jsx';
-import kamal from 'assets/img/faces/kamal.jpg';
-import marwan from 'assets/img/faces/marwan.jpg';
-import ayman from 'assets/img/faces/ayman.jpg';
-import damshity from 'assets/img/faces/damshity.jpg';
-import nabil from 'assets/img/faces/nabil.jpg';
-import kholy from 'assets/img/faces/kholy.jpg';
-import embaby from 'assets/img/faces/embaby.jpg';
-import saeed from 'assets/img/faces/saeed.jpg';
-import moniem from 'assets/img/faces/moniem.jpg';
-import moataz from 'assets/img/faces/moataz.jpg';
+
 class SectionTestimonials extends React.Component {
 	constructor(props) {
 		super(props);
@@ -71,10 +62,10 @@ class SectionTestimonials extends React.Component {
 							<GridItem xs={12} sm={12} md={12}>
 								<Carousel {...settings}>
 									{this.state.testimonials.map((testimonial) => (
-										<div>
+										<div key={testimonial.id}>
 											<Card testimonial plain className={classes.card2}>
 												<CardAvatar testimonial plain>
-													<a href="#" onClick={(e) => e.preventDefault()}>
+													<a href="#home" onClick={(e) => e.preventDefault()}>
 														<img
 															src={require(`assets/img/faces/${testimonial.img}.jpg`)}
 															alt="..."

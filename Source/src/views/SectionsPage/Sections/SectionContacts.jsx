@@ -2,12 +2,10 @@ import React from 'react';
 
 // @material-ui/core components
 import withStyles from '@material-ui/core/styles/withStyles';
-import Checkbox from '@material-ui/core/Checkbox';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
+import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
 // @material-ui/icons
 import Phone from '@material-ui/icons/Phone';
 import email from '@material-ui/icons/Email';
-import Check from '@material-ui/icons/Check';
 // core components
 import GridContainer from 'components/Grid/GridContainer.jsx';
 import GridItem from 'components/Grid/GridItem.jsx';
@@ -26,25 +24,49 @@ import contact from 'assets/img/contact.jpg';
 class SectionContacts extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			checked: []
-		};
+		this.state = { feedback: '', name: '', email: '', submitted: false };
+		this.handleChange = this.handleChange.bind(this);
+		this.handleSubmit = this.handleSubmit.bind(this);
 	}
-	handleToggle(value) {
-		const { checked } = this.state;
-		const currentIndex = checked.indexOf(value);
-		const newChecked = [ ...checked ];
 
-		if (currentIndex === -1) {
-			newChecked.push(value);
-		} else {
-			newChecked.splice(currentIndex, 1);
+	handleChange(event) {
+		switch (event.target.id) {
+			case 'feedback':
+				this.setState({ feedback: event.target.value });
+				break;
+			case 'email':
+				this.setState({ email: event.target.value });
+				break;
+			case 'fullName':
+				this.setState({ name: event.target.value });
+				break;
+			default:
 		}
+	}
 
-		this.setState({
-			checked: newChecked
+	handleSubmit(event) {
+		this.setState({ submitted: true }, () => {
+			setTimeout(() => this.setState({ submitted: false, feedback: '', name: '', email: '' }), 5000);
+		});
+		const templateId = 'template_0T1LMh9D';
+		this.sendFeedback(templateId, {
+			to_name: 'Desha',
+			message_html: this.state.feedback,
+			from_name: this.state.name,
+			reply_to: this.state.email
 		});
 	}
+
+	sendFeedback(templateId, variables) {
+		window.emailjs
+			.send('gmail', templateId, variables)
+			.then((res) => {
+				console.log('Email successfully sent!');
+			})
+			// Handle errors here however you like, or use a React error boundary
+			.catch((err) => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err));
+	}
+
 	render() {
 		const { classes, ...rest } = this.props;
 		return (
@@ -75,7 +97,7 @@ class SectionContacts extends React.Component {
 								/>
 								<InfoArea
 									className={classes.infoArea}
-									title="Give us a ring"
+									title="Give me a ring"
 									description={
 										<span>
 											Mostafa Abdallah
@@ -88,72 +110,69 @@ class SectionContacts extends React.Component {
 							</GridItem>
 							<GridItem xs={12} sm={5} md={5} className={classes.mlAuto}>
 								<Card className={classes.card1}>
-									<form>
+									<ValidatorForm ref="form" onSubmit={this.handleSubmit}>
 										<CardHeader contact color="primary" className={classes.textCenter}>
 											<h4 className={classes.cardTitle}>Contact Me</h4>
 										</CardHeader>
 										<CardBody>
 											<GridContainer>
-												<GridItem xs={12} sm={6} md={6}>
-													<CustomInput
-														labelText="First Name"
-														id="first"
-														formControlProps={{
-															fullWidth: true
-														}}
+												<GridItem xs={12} sm={12} md={12}>
+													<TextValidator
+														label="Full Name"
+														id="fullName"
+														style={{ width: '100%' }}
+														onChange={this.handleChange}
+														name="fullName"
+														value={this.state.name}
+														validators={[ 'required' ]}
+														errorMessages={[ 'this field is required' ]}
 													/>
 												</GridItem>
-												<GridItem xs={12} sm={6} md={6}>
-													<CustomInput
-														labelText="Last Name"
-														id="last"
-														formControlProps={{
-															fullWidth: true
-														}}
+
+												<GridItem xs={12} sm={12} md={12}>
+													<TextValidator
+														label="Email"
+														style={{ width: '100%' }}
+														id="email"
+														onChange={this.handleChange}
+														name="email"
+														value={this.state.email}
+														validators={[ 'required', 'isEmail' ]}
+														errorMessages={[
+															'this field is required',
+															'email is not valid'
+														]}
+													/>
+												</GridItem>
+												<GridItem xs={12} sm={12} md={12}>
+													<TextValidator
+														multiline="true"
+														rows="5"
+														label="Message"
+														style={{ width: '100%' }}
+														id="feedback"
+														onChange={this.handleChange}
+														name="feedback"
+														value={this.state.feedback}
+														validators={[ 'required' ]}
+														errorMessages={[ 'this field is required' ]}
 													/>
 												</GridItem>
 											</GridContainer>
-											<CustomInput
-												labelText="Email Address"
-												id="email-address"
-												formControlProps={{
-													fullWidth: true
-												}}
-											/>
-											<CustomInput
-												labelText="Your Message"
-												id="message"
-												formControlProps={{
-													fullWidth: true
-												}}
-												inputProps={{
-													multiline: true,
-													rows: 5
-												}}
-											/>
 										</CardBody>
 										<CardFooter className={classes.justifyContentBetween}>
-											<FormControlLabel
-												control={
-													<Checkbox
-														tabIndex={-1}
-														onClick={() => this.handleToggle(1)}
-														checkedIcon={<Check className={classes.checkedIcon} />}
-														icon={<Check className={classes.uncheckedIcon} />}
-														classes={{
-															checked: classes.checked,
-															root: classes.checkRoot
-														}}
-													/>
-												}
-												classes={{ label: classes.label }}
-												label="I'm not a robot"
-											/>
-											<Button color="primary" className={classes.pullRight}>
-												Send Message
+											<Button
+												/* onClick={this.handleSubmit} */
+												color="primary"
+												className={classes.pullRight}
+												type="submit"
+												disabled={this.state.submitted}
+											>
+												{(this.state.submitted && 'Your form is submitted!') ||
+													(!this.state.submitted && 'Send Message')}
 											</Button>
 										</CardFooter>
-									</form>
+									</ValidatorForm>
 								</Card>
 							</GridItem>
 						</GridContainer>
