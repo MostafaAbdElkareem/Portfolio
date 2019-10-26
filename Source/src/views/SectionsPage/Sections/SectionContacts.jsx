@@ -24,7 +24,7 @@ import contact from 'assets/img/contact.jpg';
 class SectionContacts extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = { feedback: '', name: '', email: '', submitted: false };
+		this.state = { feedback: '', name: '', email: '', submitted: false, message: '...', color: 'primary' };
 		this.handleChange = this.handleChange.bind(this);
 		this.handleSubmit = this.handleSubmit.bind(this);
 	}
@@ -46,7 +46,18 @@ class SectionContacts extends React.Component {
 
 	handleSubmit(event) {
 		this.setState({ submitted: true }, () => {
-			setTimeout(() => this.setState({ submitted: false, feedback: '', name: '', email: '' }), 5000);
+			setTimeout(
+				() =>
+					this.setState({
+						submitted: false,
+						feedback: '',
+						name: '',
+						email: '',
+						message: '',
+						color: 'primary'
+					}),
+				5000
+			);
 		});
 		const templateId = 'template_0T1LMh9D';
 		this.sendFeedback(templateId, {
@@ -62,9 +73,10 @@ class SectionContacts extends React.Component {
 			.send('gmail', templateId, variables)
 			.then((res) => {
 				console.log('Email successfully sent!');
+				this.setState({ message: 'Email successfully sent', color: 'success' });
 			})
 			// Handle errors here however you like, or use a React error boundary
-			.catch((err) => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err));
+			.catch((err) => this.setState({ message: "Email hasn't been sent ", color: 'danger' }));
 	}
 
 	render() {
@@ -163,12 +175,12 @@ class SectionContacts extends React.Component {
 										<CardFooter className={classes.justifyContentBetween}>
 											<Button
 												/* onClick={this.handleSubmit} */
-												color="primary"
+												color={this.state.color}
 												className={classes.pullRight}
 												type="submit"
 												disabled={this.state.submitted}
 											>
-												{(this.state.submitted && 'Your form is submitted!') ||
+												{(this.state.submitted && this.state.message) ||
 													(!this.state.submitted && 'Send Message')}
 											</Button>
 										</CardFooter>

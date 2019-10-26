@@ -45,7 +45,8 @@ function SectionBlogs({ ...props }) {
 											</strong>
 											<br />
 											Responsible for creating the logo and branding identity & Color Theme ,
-											build the website IA and site navigation.
+											build the website IA, Visuals and site navigation on Wordpress.
+											<br />
 											<br /> <strong>Keywords: </strong>
 											<Badge color="primary">WordPress</Badge>
 											<Badge color="primary">Photoshop</Badge>
@@ -86,11 +87,12 @@ function SectionBlogs({ ...props }) {
 												"WOQOD is Qatari oil and gas company focused on the distribution and
 												sale of refined petroleum products supplied by Qatar Petroleum."
 											</strong>
-											<br />My Role in the project was to deliver Wireframes and Visual screens
-											for the User journeys through the web site different sections, considering
-											mobile / tablet views.
+											<br />Delivering Visual designs for the web site different sections,
+											considering mobile/tablet views. Participating in Front-End development on
+											SharePoint 2013.
 											<br />
-											Participated in Front-End development on SharePoint 2013. Keywords:
+											Participating in Front-End development on SharePoint 2013. Keywords:
+											<br />
 											<br />
 											<strong>Keywords : </strong>
 											<Badge color="primary">Sharepoint 2013</Badge>
@@ -118,9 +120,9 @@ function SectionBlogs({ ...props }) {
 												The Pearl-Qatar is an iconic mixed-use urban development project
 												distributed across world-class architecturally distinct precincts
 											</strong>
-											<br />Responsible for UX Vision and UI development for the Public web site
-											of The Pearl that was based on SharePoint 2013 Utilizing its Content
-											management, publishing & search features.
+											<br />Delivering interactive HTML Prototype for “The Pearl” public site, and
+											participating in Front-End development on SharePoint 2013.
+											<br />
 											<br />
 											<strong>Keywords : </strong>
 											<Badge color="primary">Sharepoint 2013</Badge>
@@ -173,9 +175,11 @@ function SectionBlogs({ ...props }) {
 												facilitates communication and collaboration between administrators,
 												instructors, and parents.
 											</strong>
-											<br />My Role was to deliver Wireframes and Visual screens for diffrent
-											platform users (Student, Teachers & Parents). Participate in Front-End
-											development on SharePoint 2010
+											<br />I worked collaboratively with the product owner and development team
+											to ensure that they have the required vision, direction and UI artefacts to
+											complete sprint priorities. Owned UX Vision and strategy, created visual
+											screens and interactive prototypes of the platform.
+											<br />
 											<br />
 											<strong>Keywords : </strong>
 											<Badge color="primary">Photoshop</Badge>
@@ -204,9 +208,13 @@ function SectionBlogs({ ...props }) {
 												through offering a range of personal, business, government,
 												international and investment services.
 											</strong>
-											Responsible for Revamping CBQ existing website, enhancing information
-											architecture and site navigation to help Marketing team to reach out more
-											customers .<br />
+											<br />
+											Leading a revamp of CBQ existing website, enhancing information architecture
+											and site navigation to help marketing team to reach out more customers.
+											Applying the new design over SharePoint 2010 and training the site editors
+											on how to use the publishing and content management features of SharePoint.
+											<br />
+											<br />
 											<strong>Keywords : </strong>
 											<Badge color="primary">Sharepoint 2010</Badge>
 											<Badge color="primary">Javascript, JQuery</Badge>
