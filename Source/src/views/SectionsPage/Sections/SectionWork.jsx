@@ -121,7 +121,9 @@ function SectionTeams({ ...props }) {
 
 									<div className={classes.cardDescription}>
 										<Badge color="rose">Logo Design</Badge>
-										<Badge color="primary">Photoshop</Badge>
+										<Badge color="primary">Photoshop, Illustrator</Badge>
+										<Badge color="danger">Wordpress</Badge>
+										<Badge color="danger">HTML, CSS, Javascript</Badge>
 									</div>
 								</CardBody>
 							</Card>
@@ -207,7 +209,7 @@ function SectionTeams({ ...props }) {
 										</a>
 									</h4>
 									<div>
-										<Badge color="primary">Photoshop</Badge>
+										<Badge color="primary">Photoshop, Illustrator</Badge>
 										<Badge color="rose">Logo Design</Badge>
 										<Badge color="danger">Wordpress</Badge>
 										<Badge color="danger">HTML, CSS, Javascript</Badge>
@@ -229,13 +231,11 @@ function SectionTeams({ ...props }) {
 											href="https://www.behance.net/gallery/60063195/Layer-2-Sub-Entities-Logos"
 											target="new"
 										>
-											United International Group
+											Layer 2
 										</a>
 									</h4>
 									<div>
-										<Badge color="primary">Photoshop</Badge>
-										<Badge color="success">Wireframes, Prototype</Badge>
-										<Badge color="danger">HTML, CSS, Javascript</Badge>
+										<Badge color="primary">Photoshop, Illustrator </Badge>
 									</div>
 								</CardBody>
 							</Card>
@@ -278,13 +278,12 @@ function SectionTeams({ ...props }) {
 											href="https://www.behance.net/gallery/79033347/Seeds-Portal-Application"
 											target="new"
 										>
-											Agile Logo Concept
+											Agile Logo
 										</a>
 									</h4>
 									<div>
 										<Badge color="primary">Photoshop</Badge>
-										<Badge color="success">Wireframes, Prototype</Badge>
-										<Badge color="danger">HTML, CSS, Javascript</Badge>
+										<Badge color="success">Presentation</Badge>
 									</div>
 								</CardBody>
 							</Card>

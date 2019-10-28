@@ -42,7 +42,7 @@ class SectionFeatures extends React.Component {
 							md={8}
 							className={`${classes.mlAuto} ${classes.mrAuto} ${classes.textCenter}`}
 						>
-							<h2 className={classes.title}>My Qualifications & Area of Expertise </h2>
+							<h2 className={classes.title}>My Qualifications & Areas of Expertise </h2>
 						</GridItem>
 						<div className={classes.container}>
 							<GridContainer className={classes.gridContainer}>
