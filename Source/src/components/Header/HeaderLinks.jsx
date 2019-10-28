@@ -110,7 +110,7 @@ function HeaderLinks({ ...props }) {
 					className={classes.dropdownLink}
 					onClick={(e) => smoothScroll(e, 'contacts')}
 				>
-					<Call className={classes.dropdownIcons} /> Contacts
+					<Call className={classes.dropdownIcons} /> Contact Me
 				</Link>
 			</ListItem>
 		</List>

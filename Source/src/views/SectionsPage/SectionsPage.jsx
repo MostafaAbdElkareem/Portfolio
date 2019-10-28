@@ -235,7 +235,7 @@ class SectionsPage extends React.Component {
 								}}
 							>
 								<span className="cd-dot" />
-								<span className="cd-label">Contact Us</span>
+								<span className="cd-label">Contact Me</span>
 							</a>
 						</li>
 					</ul>
