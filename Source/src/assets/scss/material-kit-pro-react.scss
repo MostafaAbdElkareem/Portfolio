@@ -29,7 +29,15 @@
 .hide {
 	display: none;
 }
-
+.LI-badge-container-vertical-dark {
+	width: 100% !important;
+	border-radius: 6px !important;
+	box-shadow: 0 5px 15px -8px #0000003d, 0 8px 10px -5px #00000033 !important;
+}
+.LI-badge-container.vertical.dark .LI-profile-pic-container {
+	border-radius: 6px 6px 0 0 !important;
+	box-shadow: 0 5px 15px -8px #0000003d, 0 8px 10px -5px #00000033 !important;
+}
 .Header-info-9 {
 	-webkit-animation: bg-pan-left 8s both;
 	animation: bg-pan-left 8s both;

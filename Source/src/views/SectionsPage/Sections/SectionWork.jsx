@@ -82,6 +82,10 @@ function SectionTeams({ ...props }) {
 											Linkdin Profile
 										</a>
 									</h4>
+									<div>
+										<Badge color="info">Linkedin</Badge>
+										<Badge color="success">Portfolio</Badge>
+									</div>
 								</CardBody>
 							</Card>
 							<Card blog plain>
@@ -312,7 +316,7 @@ function SectionTeams({ ...props }) {
 							</Card>
 						</GridItem>
 						<GridItem xs={12} sm={6} md={4} lg={3}>
-							<Card blog plain>
+							{/* 	<Card blog plain>
 								<CardHeader image plain>
 									<a href="https://www.behance.net/gallery/79032611/Cole-Engineering" target="new">
 										<img src={intranet} alt="..." />
@@ -334,6 +338,7 @@ function SectionTeams({ ...props }) {
 									</div>
 								</CardBody>
 							</Card>
+						 */}{' '}
 							<Card blog plain>
 								<CardHeader image plain>
 									<a
