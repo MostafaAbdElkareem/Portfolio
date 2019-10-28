@@ -60,6 +60,31 @@ function SectionTeams({ ...props }) {
 					<GridContainer>
 						<GridItem xs={12} sm={6} md={4} lg={3}>
 							<Card blog plain>
+								<div
+									className="LI-profile-badge"
+									data-version="v1"
+									data-size="large"
+									data-locale="en_US"
+									data-type="vertical"
+									data-theme="dark"
+									data-vanity="mostafaabdelkareem"
+								>
+									<a
+										className="LI-simple-link"
+										href="https://au.linkedin.com/in/mostafaabdelkareem?trk=profile-badge"
+									>
+										Mostafa Abdelkarim Abdallah
+									</a>
+								</div>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a href="https://www.behance.net/gallery/60064313/Achievements" target="new">
+											Linkdin Profile
+										</a>
+									</h4>
+								</CardBody>
+							</Card>
+							<Card blog plain>
 								<CardHeader image plain>
 									<a href="https://www.behance.net/gallery/60064313/Achievements" target="new">
 										<img src={cert} alt="..." />
@@ -77,7 +102,6 @@ function SectionTeams({ ...props }) {
 									</div>
 								</CardBody>
 							</Card>
-
 							<Card blog plain>
 								<CardHeader image plain>
 									<a href="https://www.behance.net/gallery/79273549/Ready-Stack" target="new">
@@ -97,6 +121,8 @@ function SectionTeams({ ...props }) {
 									</div>
 								</CardBody>
 							</Card>
+						</GridItem>
+						<GridItem xs={12} sm={6} md={4} lg={3}>
 							<Card blog plain>
 								<CardHeader image plain>
 									<a href="https://www.behance.net/gallery/79033017/Portfolio-Optimizer" target="new">
@@ -138,8 +164,7 @@ function SectionTeams({ ...props }) {
 									</div>
 								</CardBody>
 							</Card>
-						</GridItem>
-						<GridItem xs={12} sm={6} md={4} lg={3}>
+
 							<Card blog plain>
 								<CardHeader image plain>
 									<a
