@@ -92,7 +92,7 @@ function HeaderLinks({ ...props }) {
 					className={classes.dropdownLink}
 					onClick={(e) => smoothScroll(e, 'features')}
 				>
-					<Build className={classes.dropdownIcons} /> Qualification
+					<Build className={classes.dropdownIcons} /> Qualifications
 				</Link>
 			</ListItem>
 			<ListItem className={classes.listItem}>

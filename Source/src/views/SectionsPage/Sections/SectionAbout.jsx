@@ -11,15 +11,17 @@ import Button from 'components/CustomButtons/Button.jsx';
 import GridContainer from 'components/Grid/GridContainer.jsx';
 import GridItem from 'components/Grid/GridItem.jsx';
 import headersStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx';
-import dg1 from 'assets/img/web-dev.jpg';
-import dg3 from 'assets/img/ux.jpg';
+import web from 'assets/img/web-dev.jpg';
+import ux from 'assets/img/ux.jpg';
 import avatar from 'assets/img/avatar.jpg';
-import resume from 'downloads/Mostafa-Abdallah_Resume.docx';
+import word from 'downloads/Mostafa-Abdallah_Resume.docx';
+import pdf from 'downloads/Mostafa-Abdallah_Resume.docx';
 
 function SectionHeaders({ ...props }) {
 	const { classes, ...rest } = props;
 	const settings = {
 		dots: true,
+		autoplaySpeed: 12000,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 1,
@@ -38,7 +40,7 @@ function SectionHeaders({ ...props }) {
 					<div>
 						<div
 							className={classes.pageHeader}
-							style={{ backgroundImage: `url("${dg3}")`, backgroundSize: 'cover' }}
+							style={{ backgroundImage: `url("${ux}")`, backgroundSize: 'cover' }}
 						>
 							<div className={classes.container}>
 								<GridContainer>
@@ -67,13 +69,20 @@ function SectionHeaders({ ...props }) {
 											experience in using UX design best practices, and a deep understanding of
 											mobile-first and responsive design specifications.
 										</h4>
+										<h4>
+											Downalod my Resume{' '}
+											<Button justIcon color="white" simple>
+												<a style={{ color: '#fff' }} href={word}>
+													<i className="fas fa-file-word" />
+												</a>
+											</Button>
+											<Button justIcon color="white" simple>
+												<a style={{ color: '#fff' }} href={pdf}>
+													<i className="fas fa-file-pdf" />
+												</a>
+											</Button>
+										</h4>
 
-										<Button color="danger" size="lg">
-											<a style={{ color: '#fff' }} href={resume}>
-												Download My Resume
-											</a>
-										</Button>
-										<br />
 										<Button justIcon color="white" simple>
 											<a
 												href="https://www.linkedin.com/in/mostafaabdelkareem/"
@@ -114,7 +123,7 @@ function SectionHeaders({ ...props }) {
 					<div>
 						<div
 							className={classes.pageHeader}
-							style={{ backgroundImage: `url("${dg1}")`, backgroundSize: 'cover' }}
+							style={{ backgroundImage: `url("${web}")`, backgroundSize: 'cover' }}
 						>
 							<div className={classes.container}>
 								<GridContainer>

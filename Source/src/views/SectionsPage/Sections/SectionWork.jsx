@@ -27,7 +27,6 @@ import lyr2 from 'assets/img/layer2.png';
 import cert from 'assets/img/cert.jpg';
 import ws from 'assets/img/website.jpg';
 import fk from 'assets/img/fk.jpg';
-import intranet from 'assets/img/intranet.png';
 
 function SectionTeams({ ...props }) {
 	const { classes, ...rest } = props;

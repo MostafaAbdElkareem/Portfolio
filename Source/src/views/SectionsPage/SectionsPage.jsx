@@ -129,7 +129,7 @@ class SectionsPage extends React.Component {
 								}}
 							>
 								<span className="cd-dot" />
-								<span className="cd-label">Achievements</span>
+								<span className="cd-label">Key Projects</span>
 							</a>
 						</li>
 						<li>
