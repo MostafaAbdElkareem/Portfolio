@@ -27,6 +27,7 @@ import lyr2 from 'assets/img/layer2.png';
 import cert from 'assets/img/cert.jpg';
 import ws from 'assets/img/website.jpg';
 import fk from 'assets/img/fk.jpg';
+import udmeyUX from 'assets/img/ux_certificate.jpg';
 
 function SectionTeams({ ...props }) {
 	const { classes, ...rest } = props;
@@ -128,6 +129,30 @@ function SectionTeams({ ...props }) {
 							</Card>
 						</GridItem>
 						<GridItem xs={12} sm={6} md={4} lg={3}>
+							<Card blog plain>
+								<CardHeader image plain>
+									<a
+										href="https://www.behance.net/gallery/88025719/Udemy-UX-Certificate"
+										target="new"
+									>
+										<img src={udmeyUX} alt="..." />
+									</a>
+								</CardHeader>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a
+											href="https://www.behance.net/gallery/88025719/Udemy-UX-Certificate"
+											target="new"
+										>
+											Udemy UX Certificate
+										</a>
+									</h4>
+
+									<div className={classes.cardDescription}>
+										<Badge color="warning">Certificates</Badge>
+									</div>
+								</CardBody>
+							</Card>
 							<Card blog plain>
 								<CardHeader image plain>
 									<a href="https://www.behance.net/gallery/79033017/Portfolio-Optimizer" target="new">
