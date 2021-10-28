@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "name": "UX",
+        "icon": "ux",
+        "description": "Creating wireframes, Building interactive prototypes and Running user reaserch."
+    },
+    {
+        "id": 1,
+        "name": "Front-End Development",
+        "icon": "coding",
+        "description": "Considerable UI and Front-End knowledge of using HTML5, CSS and JavaScript that assured providing high standard web applications."
+    },
+    {
+        "id": 2,
+        "name": "SharePoint Branding",
+        "icon": "sharepoint",
+        "description": "Over 8 years excperience working on sharepoint branding and UI development, To deliver internal portals, intranets and public websites."
+    },
+    {
+        "id": 3,
+        "name": "Visual Design",
+        "icon": "adobe",
+        "description": "Visual design using Adobe photoshop and illustrator."
+    },
+    {
+        "id": 4,
+        "name": "Team Play",
+        "icon": "team",
+        "description": "Highly collaborative, People oriented and supportive team player."
+    },
+    {
+        "id": 5,
+        "name": "Accessability and Performance Optimization",
+        "icon": "performance",
+        "description": "Understanding and Applying accessability guidelines and best practices for enhancing web application's performance. "
+    }
+]
