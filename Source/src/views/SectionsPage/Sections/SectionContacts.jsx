@@ -114,7 +114,6 @@ class SectionContacts extends React.Component {
 										<span>
 											Mostafa Abdallah
 											<br /> Australia : +61 424 385 737
-											<br /> Egypt : +201 000 102 059
 										</span>
 									}
 									icon={Phone}

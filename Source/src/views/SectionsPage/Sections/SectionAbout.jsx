@@ -132,9 +132,30 @@ function SectionHeaders({ ...props }) {
 										<h1 className={classes.title}>UI & Front-End Development</h1>
 										<h4>
 											Hands-on expertise working with HTML, CSS and the latest releases of ReactJS
-											& Angular – SASS & LESS CSS pre-processors - Bootstrap / Materialize CSS
+											– SASS & LESS CSS pre-processors - Bootstrap / Materialize CSS
 											frameworks and Popular CMSs like (Sharepoint & WordPress) to build web
-											applications with extensive experience in building reusable Components.
+											applications with extensive experience in building reusable components.
+										</h4>
+									</GridItem>
+								</GridContainer>
+							</div>
+						</div>
+					</div>
+					{/* Carousel 1 END */}
+					{/* Carousel 1 START */}
+					<div>
+						<div
+							className={classes.pageHeader}
+							style={{ backgroundImage: `url("${web}")`, backgroundSize: 'cover' }}
+						>
+							<div className={classes.container}>
+								<GridContainer>
+									<GridItem xs={12} sm={6} md={6}>
+										<h4>ABOUT ME | My experience</h4>
+										<h1 className={classes.title}>PowerApps Platform Customization</h1>
+										<h4>
+											Building nice looking & codeless canvas apps / Create fully customized web templates using 
+											liquid to dilever modern powerapps portal.
 										</h4>
 									</GridItem>
 								</GridContainer>
