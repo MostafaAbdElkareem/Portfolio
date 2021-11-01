@@ -14,6 +14,7 @@ import Info from 'components/Typography/Info.jsx';
 
 import blogsStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/blogsStyle.jsx';
 import woqod from 'assets/img/woqod.jpg';
+import acecqa from 'assets/img/nqaits.jpg';
 import clg from 'assets/img/clg.png';
 import cbq from 'assets/img/cbq.jpg';
 import pearl from 'assets/img/thepearl.jpg';
@@ -29,6 +30,54 @@ function SectionBlogs({ ...props }) {
 					<GridContainer>
 						<GridItem xs={12} sm={10} md={10} className={`${classes.mlAuto} ${classes.mrAuto}`}>
 							<h2 className={classes.title}>Key Projects</h2>
+
+							<Card plain blog className={classes.card}>
+								<GridContainer>
+									<GridItem xs={12} sm={5} md={5}>
+										<CardHeader image plain>
+											<a
+												href="https://www.behance.net/gallery/130161571/ACECQA-NQA-ITS-Portal-revamp"
+												target="new"
+											>
+												<img src={acecqa} alt="..." />
+											</a>
+										</CardHeader>
+									</GridItem>
+									<GridItem xs={12} sm={7} md={7}>
+										<Info>
+											<h6 className={classes.cardCategory}>ENTERPRISE</h6>
+										</Info>
+										<h3 className={classes.cardTitle}>
+											<a
+												href="https://public.nqaits.acecqa.gov.au/Pages/Landing.aspx"
+												target="new"
+											>
+												ACECQA - NQA ITS
+											</a>
+										</h3>
+										<p className={classes.description1}>
+											<strong>
+												The NQA IT System is an online tool that offers providers a secure and
+												direct way of communicating with regulatory authorities aiming to reduce
+												paperwork and duplication.
+											</strong>
+											<br />Responsible for revamp NQA ITS portal, Enhance the UX journy, Applying
+											modern style that engage users and enable responsivness.
+											<br />
+											Participating in Front-End development on SharePoint 2013. Keywords:
+											<br />
+											<br />
+											<strong>Keywords : </strong>
+											<Badge color="primary">Sharepoint 2013, Modern Webparts</Badge>
+											<Badge color="primary">Javascript, JQuery</Badge>
+											<Badge color="primary">Photoshop</Badge>
+											<Badge color="primary">Wireframes, Prototype</Badge>
+											<Badge color="primary">HTML5</Badge>
+											<Badge color="primary">SASS & CSS</Badge>
+										</p>
+									</GridItem>
+								</GridContainer>
+							</Card>
 							<Card plain blog className={classes.card}>
 								<GridContainer>
 									<GridItem xs={12} sm={7} md={7}>
@@ -50,7 +99,7 @@ function SectionBlogs({ ...props }) {
 											<br /> <strong>Keywords: </strong>
 											<Badge color="primary">WordPress</Badge>
 											<Badge color="primary">Photoshop</Badge>
-											<Badge color="primary">HTML</Badge>
+											<Badge color="primary">HTML5</Badge>
 											<Badge color="primary">CSS</Badge>
 										</p>
 									</GridItem>
@@ -100,8 +149,8 @@ function SectionBlogs({ ...props }) {
 											<Badge color="primary">Javascript, JQuery</Badge>
 											<Badge color="primary">Photoshop</Badge>
 											<Badge color="primary">Wireframes, Prototype</Badge>
-											<Badge color="primary">HTML</Badge>
-											<Badge color="primary">CSS</Badge>
+											<Badge color="primary">HTML5</Badge>
+											<Badge color="primary">SASS & CSS</Badge>
 										</p>
 									</GridItem>
 								</GridContainer>
@@ -129,7 +178,7 @@ function SectionBlogs({ ...props }) {
 											<Badge color="primary">CSWP, Display Template</Badge>
 											<Badge color="primary">Javascript, JQuery</Badge>
 											<Badge color="primary">Photoshop</Badge>
-											<Badge color="primary">HTML</Badge>
+											<Badge color="primary">HTML5</Badge>
 											<Badge color="primary">CSS</Badge>
 										</p>
 									</GridItem>

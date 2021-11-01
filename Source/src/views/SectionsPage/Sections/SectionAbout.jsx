@@ -12,6 +12,7 @@ import GridContainer from 'components/Grid/GridContainer.jsx';
 import GridItem from 'components/Grid/GridItem.jsx';
 import headersStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx';
 import web from 'assets/img/web-dev.jpg';
+import powerpps from 'assets/img/powerapps.jpg';
 import ux from 'assets/img/ux.jpg';
 import avatar from 'assets/img/avatar.jpg';
 import word from 'downloads/Mostafa-Abdallah_Resume.docx';
@@ -132,9 +133,9 @@ function SectionHeaders({ ...props }) {
 										<h1 className={classes.title}>UI & Front-End Development</h1>
 										<h4>
 											Hands-on expertise working with HTML, CSS and the latest releases of ReactJS
-											– SASS & LESS CSS pre-processors - Bootstrap / Materialize CSS
-											frameworks and Popular CMSs like (Sharepoint & WordPress) to build web
-											applications with extensive experience in building reusable components.
+											– SASS & LESS CSS pre-processors - Bootstrap / Materialize CSS frameworks
+											and Popular CMSs like (Sharepoint & WordPress) to build web applications
+											with extensive experience in building reusable components.
 										</h4>
 									</GridItem>
 								</GridContainer>
@@ -146,7 +147,7 @@ function SectionHeaders({ ...props }) {
 					<div>
 						<div
 							className={classes.pageHeader}
-							style={{ backgroundImage: `url("${web}")`, backgroundSize: 'cover' }}
+							style={{ backgroundImage: `url("${powerpps}")`, backgroundSize: 'cover' }}
 						>
 							<div className={classes.container}>
 								<GridContainer>
@@ -154,8 +155,8 @@ function SectionHeaders({ ...props }) {
 										<h4>ABOUT ME | My experience</h4>
 										<h1 className={classes.title}>PowerApps Platform Customization</h1>
 										<h4>
-											Building nice looking & codeless canvas apps / Create fully customized web templates using 
-											liquid to dilever modern powerapps portal.
+											Building nice looking & codeless canvas apps / Create fully customized web
+											templates using liquid to dilever modern powerapps portal.
 										</h4>
 									</GridItem>
 								</GridContainer>
