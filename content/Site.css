@@ -19,7 +19,7 @@ body {
 	padding-top: 50px;
 	padding-bottom: 20px;
 	background-size: cover;
-	background-image: url(../Content/bg2.png);
+	background-image: url(bg2.png);
 	background-repeat: no-repeat;
 	font-family: 'Cairo' !important;
 	background-position: center;
@@ -29,7 +29,7 @@ body {
 		padding-top: 150px;
 		padding-bottom: 20px;
 		background-size: cover;
-		background-image: url(../Content/bg-mobile.png);
+		background-image: url(bg-mobile.png);
 		background-repeat: no-repeat;
 		font-family: 'Cairo' !important;
 		background-position: center;
