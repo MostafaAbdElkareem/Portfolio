@@ -4,28 +4,20 @@ self.__precacheManifest = [
     "url": "/static/media/dashboard.d6b17feb.jpg"
   },
   {
-    "revision": "ded4f47f31aca651b45b",
-    "url": "/static/css/main.07f8a53c.chunk.css"
+    "revision": "3298609ab698eb08f1f9",
+    "url": "/static/css/main.e4ffe515.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.42ac5946.js"
   },
   {
-    "revision": "5cb3059ad7e45bc04e14",
-    "url": "/static/js/2.5cb3059a.chunk.js"
-  },
-  {
-    "revision": "fa45046ff8362a0273ebfff36dea9901",
-    "url": "/static/media/Mostafa-Abdallah_Resume.fa45046f.docx"
+    "revision": "0522a5236f77b29175a9",
+    "url": "/static/js/2.0522a523.chunk.js"
   },
   {
     "revision": "130810fea8edf449da972a7e32833a49",
     "url": "/static/media/clg.130810fe.png"
-  },
-  {
-    "revision": "f4441d6221ceee64719eead43c67b2c6",
-    "url": "/static/media/MA-logo_t.f4441d62.png"
   },
   {
     "revision": "527de93c5e0adc99cdac8aad4796b5aa",
@@ -42,6 +34,14 @@ self.__precacheManifest = [
   {
     "revision": "34ee9b2ffded3f549c523a63decdf7af",
     "url": "/static/media/avatar.34ee9b2f.jpg"
+  },
+  {
+    "revision": "a09d67ee150485e253e6cab0e241cbdd",
+    "url": "/static/media/Mostafa_Abdallah_Resume.a09d67ee.docx"
+  },
+  {
+    "revision": "c81a38dc7412a595f7a0688162c39885",
+    "url": "/static/media/Mostafa_Abdallah_Resume.c81a38dc.pdf"
   },
   {
     "revision": "d639f4d6b8274d933d0dc579183585a7",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "url": "/static/media/prototype.c9ab2616.jpg"
   },
   {
-    "revision": "ded4f47f31aca651b45b",
-    "url": "/static/js/main.ded4f47f.chunk.js"
+    "revision": "3298609ab698eb08f1f9",
+    "url": "/static/js/main.3298609a.chunk.js"
   },
   {
     "revision": "21817db88a53c7144864d5d58a2ee81d",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/static/media/ux.9643bdd4.svg"
   },
   {
-    "revision": "adaed0bbad08188a1e91e3cdc09937fd",
+    "revision": "a9d0dc8b90159a82d9c9ed05b004998d",
     "url": "/index.html"
   }
 ];

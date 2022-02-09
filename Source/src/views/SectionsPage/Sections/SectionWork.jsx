@@ -12,7 +12,7 @@ import CardBody from 'components/Card/CardBody.jsx';
 import teamsStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/teamsStyle.jsx';
 
 import Badge from 'components/Badge/Badge.jsx';
-import Button from 'components/CustomButtons/Button.jsx';
+
 /* images */
 
 import rs from 'assets/img/rs.jpg';
@@ -37,24 +37,8 @@ function SectionTeams({ ...props }) {
 			<div className={`${classes.section}`} style={{ background: '#bbdade' }}>
 				<div className={classes.container} style={{ maxWidth: '80%' }}>
 					<GridContainer>
-						<GridItem
-							xs={12}
-							sm={8}
-							md={8}
-							className={`${classes.mlAuto} ${classes.mrAuto} ${classes.textCenter}`}
-						>
+						<GridItem xs={12} sm={8} md={8}>
 							<h2 className={classes.title}>My Work</h2>
-							<h5 className={classes.descriptionWhite}>
-								<Badge color="primary">Photoshop</Badge>
-								<Badge color="success">Wireframes, Prototype</Badge>
-								<Badge color="danger">Sharepoint</Badge>
-								<Badge color="rose">Logo Design</Badge>
-								<Badge color="info">Web Site</Badge>
-								<Badge color="danger">HTML, CSS, Javascript</Badge>
-								<Badge color="warning">Certificates</Badge>
-								<Badge color="success">Presentation</Badge>
-								<Badge color="danger">Wordpress</Badge>
-							</h5>
 						</GridItem>
 					</GridContainer>
 					<GridContainer>
@@ -73,7 +57,7 @@ function SectionTeams({ ...props }) {
 										className="LI-simple-link"
 										href="https://au.linkedin.com/in/mostafaabdelkareem?trk=profile-badge"
 									>
-										Mostafa Abdelkarim Abdallah
+										.
 									</a>
 								</div>
 								<CardBody plain>
@@ -124,6 +108,29 @@ function SectionTeams({ ...props }) {
 										<Badge color="primary">Photoshop, Illustrator</Badge>
 										<Badge color="danger">Wordpress</Badge>
 										<Badge color="danger">HTML, CSS, Javascript</Badge>
+									</div>
+								</CardBody>
+							</Card>
+							<Card blog plain>
+								<CardHeader image plain>
+									<a
+										href="https://www.behance.net/gallery/60063195/Layer-2-Sub-Entities-Logos"
+										target="new"
+									>
+										<img src={lyr2} alt="..." />
+									</a>
+								</CardHeader>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a
+											href="https://www.behance.net/gallery/60063195/Layer-2-Sub-Entities-Logos"
+											target="new"
+										>
+											Layer 2
+										</a>
+									</h4>
+									<div>
+										<Badge color="primary">Photoshop, Illustrator </Badge>
 									</div>
 								</CardBody>
 							</Card>
@@ -237,29 +244,6 @@ function SectionTeams({ ...props }) {
 										<Badge color="rose">Logo Design</Badge>
 										<Badge color="danger">Wordpress</Badge>
 										<Badge color="danger">HTML, CSS, Javascript</Badge>
-									</div>
-								</CardBody>
-							</Card>
-							<Card blog plain>
-								<CardHeader image plain>
-									<a
-										href="https://www.behance.net/gallery/60063195/Layer-2-Sub-Entities-Logos"
-										target="new"
-									>
-										<img src={lyr2} alt="..." />
-									</a>
-								</CardHeader>
-								<CardBody plain>
-									<h4 className={classes.cardTitle}>
-										<a
-											href="https://www.behance.net/gallery/60063195/Layer-2-Sub-Entities-Logos"
-											target="new"
-										>
-											Layer 2
-										</a>
-									</h4>
-									<div>
-										<Badge color="primary">Photoshop, Illustrator </Badge>
 									</div>
 								</CardBody>
 							</Card>
@@ -416,11 +400,6 @@ function SectionTeams({ ...props }) {
 							</Card>
 						</GridItem>
 					</GridContainer>
-					<div className={classes.textCenter}>
-						<Button color="behance" href="https://www.behance.net/desha-portfolio" target="new">
-							<i className="fab fa-behance" /> More Projects on Behance
-						</Button>
-					</div>
 				</div>
 			</div>
 			{/* Team 5 END */}

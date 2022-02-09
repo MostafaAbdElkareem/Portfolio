@@ -7,7 +7,6 @@ import {
 	title,
 	description,
 	cardTitle,
-	blackColor,
 	whiteColor,
 	hexToRgb
 } from 'assets/jss/material-kit-pro-react.jsx';

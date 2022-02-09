@@ -15,8 +15,8 @@ import web from 'assets/img/web-dev.jpg';
 import powerpps from 'assets/img/powerapps.jpg';
 import ux from 'assets/img/ux.jpg';
 import avatar from 'assets/img/avatar.jpg';
-import word from 'downloads/Mostafa-Abdallah_Resume.docx';
-import pdf from 'downloads/Mostafa-Abdallah_Resume.docx';
+import word from 'downloads/Mostafa_Abdallah_Resume.docx';
+import pdf from 'downloads/Mostafa_Abdallah_Resume.pdf';
 
 function SectionHeaders({ ...props }) {
 	const { classes, ...rest } = props;
@@ -64,7 +64,7 @@ function SectionHeaders({ ...props }) {
 										className={classNames(classes.mlAuto, classes.textRight)}
 									>
 										<h4>ABOUT ME | My experience</h4>
-										<h1 className={classes.title}>UX & Visual Design</h1>
+										<h1 className={classes.title}>UX & UI Design</h1>
 										<h4>
 											Intensive knowledge of designing complex digital solutions, Extensive
 											experience in using UX design best practices, and a deep understanding of

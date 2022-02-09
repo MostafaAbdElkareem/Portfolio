@@ -31,7 +31,7 @@ const blogsSection = {
 	},
 	description1: {
 		...description,
-		lineHeight: '1.313rem'
+		lineHeight: '20px'
 	},
 	author: {
 		'& a': {

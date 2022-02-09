@@ -11,7 +11,7 @@ import Badge from 'components/Badge/Badge.jsx';
 
 import CardHeader from 'components/Card/CardHeader.jsx';
 import Info from 'components/Typography/Info.jsx';
-
+import Button from 'components/CustomButtons/Button.jsx';
 import blogsStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/blogsStyle.jsx';
 import woqod from 'assets/img/woqod.jpg';
 import acecqa from 'assets/img/nqaits.jpg';
@@ -26,7 +26,7 @@ function SectionBlogs({ ...props }) {
 		<div className="cd-section" {...rest}>
 			{/* Blogs 1 START */}
 			<div className={classes.blog}>
-				<div className={classes.container}>
+				<div className={classes.container} style={{ maxWidth: '80%' }}>
 					<GridContainer>
 						<GridItem xs={12} sm={10} md={10} className={`${classes.mlAuto} ${classes.mrAuto}`}>
 							<h2 className={classes.title}>Key Projects</h2>
@@ -281,6 +281,18 @@ function SectionBlogs({ ...props }) {
 									</GridItem>
 								</GridContainer>
 							</Card>
+						</GridItem>
+						<GridItem xs={12} sm={10} md={10} className={`${classes.mlAuto} ${classes.mrAuto}`}>
+							<Button
+								color="danger"
+								href="https://drive.google.com/drive/folders/1gE1-c8skhiPKn87MZbtypulZw03H_Ncx?usp=sharing"
+								target="new"
+							>
+								<i className="fa fa-file-powerpoint" /> &nbsp; More Presentations and Case studies
+							</Button>
+							<Button color="behance" href="https://www.behance.net/desha-portfolio" target="new">
+								<i className="fab fa-behance" /> More Projects on Behance
+							</Button>
 						</GridItem>
 					</GridContainer>
 				</div>
