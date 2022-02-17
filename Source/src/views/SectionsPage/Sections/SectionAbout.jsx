@@ -11,12 +11,12 @@ import Button from 'components/CustomButtons/Button.jsx';
 import GridContainer from 'components/Grid/GridContainer.jsx';
 import GridItem from 'components/Grid/GridItem.jsx';
 import headersStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx';
-import web from 'assets/img/web-dev.jpg';
-import powerpps from 'assets/img/powerapps.jpg';
+//import web from 'assets/img/web-dev.jpg';
+//import powerpps from 'assets/img/powerapps.jpg';
 import ux from 'assets/img/ux.jpg';
 import avatar from 'assets/img/avatar.jpg';
 import word from 'downloads/Mostafa_Abdallah_Resume.docx';
-import pdf from 'downloads/Mostafa_Abdallah_Resume.pdf';
+//import pdf from 'downloads/Mostafa_Abdallah_Resume.pdf';
 
 function SectionHeaders({ ...props }) {
 	const { classes, ...rest } = props;
@@ -61,14 +61,22 @@ function SectionHeaders({ ...props }) {
 										xs={12}
 										sm={7}
 										md={7}
-										className={classNames(classes.mlAuto, classes.textRight)}
+										className={classNames(classes.mlAuto, classes.textLeft)}
 									>
 										<h4>ABOUT ME | My experience</h4>
 										<h1 className={classes.title}>UX & UI Design</h1>
 										<h4>
-											Intensive knowledge of designing complex digital solutions, Extensive
-											experience in using UX design best practices, and a deep understanding of
-											mobile-first and responsive design specifications.
+											Talented and innovative UX/UI Consultant, Intensive Experience in applying
+											UCD process and UX best practices from Research, Ideation, Wireframing and
+											Prototyping into Delivering meaningful experience that solves users problems
+											and satisfy its needs, Deep understanding of designing complex solutions for
+											complete digital environments.
+											<br />
+											<br />With broad professional experience in leveraging HTML, CSS and
+											JavaScript to build responsive web applications, and interactive features
+											that drive business growth and improve overall User Experience.
+											<br />
+											<br />Highly collaborative, people oriented and supportive team player.
 										</h4>
 										<h4>
 											Downalod my Resume{' '}
@@ -77,11 +85,11 @@ function SectionHeaders({ ...props }) {
 													<i className="fas fa-file-word" />
 												</a>
 											</Button>
-											<Button justIcon color="white" simple>
+											{/* 	<Button justIcon color="white" simple>
 												<a style={{ color: '#fff' }} href={pdf}>
 													<i className="fas fa-file-pdf" />
 												</a>
-											</Button>
+											</Button> */}
 										</h4>
 
 										<Button justIcon color="white" simple>
@@ -104,7 +112,7 @@ function SectionHeaders({ ...props }) {
 												<i className="fab fa-behance" />
 											</a>
 										</Button>
-										<Button justIcon color="white" simple>
+										{/* <Button justIcon color="white" simple>
 											<a
 												href="https://github.com/MostafaAbdElkareem"
 												target="_blank"
@@ -113,7 +121,7 @@ function SectionHeaders({ ...props }) {
 											>
 												<i className="fab fa-github" />
 											</a>
-										</Button>
+										</Button> */}
 									</GridItem>
 								</GridContainer>
 							</div>
@@ -121,7 +129,7 @@ function SectionHeaders({ ...props }) {
 					</div>
 					{/* Carousel 3 END */}
 					{/* Carousel 1 START */}
-					<div>
+					{/* 	<div>
 						<div
 							className={classes.pageHeader}
 							style={{ backgroundImage: `url("${web}")`, backgroundSize: 'cover' }}
@@ -141,10 +149,10 @@ function SectionHeaders({ ...props }) {
 								</GridContainer>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					{/* Carousel 1 END */}
 					{/* Carousel 1 START */}
-					<div>
+					{/* 	<div>
 						<div
 							className={classes.pageHeader}
 							style={{ backgroundImage: `url("${powerpps}")`, backgroundSize: 'cover' }}
@@ -162,7 +170,7 @@ function SectionHeaders({ ...props }) {
 								</GridContainer>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					{/* Carousel 1 END */}
 				</Carousel>
 			</div>

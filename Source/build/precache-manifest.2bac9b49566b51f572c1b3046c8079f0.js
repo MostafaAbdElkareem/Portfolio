@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "d6b17feb4214264d350b1e363d6678fd",
-    "url": "/static/media/dashboard.d6b17feb.jpg"
+    "revision": "ac60d0d5296c188679aab1b22eaac03f",
+    "url": "/static/media/genx.ac60d0d5.jpg"
   },
   {
-    "revision": "3298609ab698eb08f1f9",
+    "revision": "67a586526902f373420f",
     "url": "/static/css/main.e4ffe515.chunk.css"
   },
   {
@@ -12,20 +12,12 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.42ac5946.js"
   },
   {
-    "revision": "0522a5236f77b29175a9",
-    "url": "/static/js/2.0522a523.chunk.js"
+    "revision": "e250ead757104699af86",
+    "url": "/static/js/2.e250ead7.chunk.js"
   },
   {
     "revision": "130810fea8edf449da972a7e32833a49",
     "url": "/static/media/clg.130810fe.png"
-  },
-  {
-    "revision": "527de93c5e0adc99cdac8aad4796b5aa",
-    "url": "/static/media/web-dev.527de93c.jpg"
-  },
-  {
-    "revision": "0e78e1f21a644ae6e6a37978b7dbbcd1",
-    "url": "/static/media/powerapps.0e78e1f2.jpg"
   },
   {
     "revision": "0921e6eee7b626b599d329e233bd0a47",
@@ -36,12 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/avatar.34ee9b2f.jpg"
   },
   {
-    "revision": "a09d67ee150485e253e6cab0e241cbdd",
-    "url": "/static/media/Mostafa_Abdallah_Resume.a09d67ee.docx"
-  },
-  {
-    "revision": "c81a38dc7412a595f7a0688162c39885",
-    "url": "/static/media/Mostafa_Abdallah_Resume.c81a38dc.pdf"
+    "revision": "f3a8ae890c194ec7cf27c3cf079f3235",
+    "url": "/static/media/Mostafa_Abdallah_Resume.f3a8ae89.docx"
   },
   {
     "revision": "d639f4d6b8274d933d0dc579183585a7",
@@ -76,16 +64,16 @@ self.__precacheManifest = [
     "url": "/static/media/prototype.c9ab2616.jpg"
   },
   {
-    "revision": "3298609ab698eb08f1f9",
-    "url": "/static/js/main.3298609a.chunk.js"
+    "revision": "d6b17feb4214264d350b1e363d6678fd",
+    "url": "/static/media/dashboard.d6b17feb.jpg"
   },
   {
     "revision": "21817db88a53c7144864d5d58a2ee81d",
     "url": "/static/media/banner.21817db8.jpg"
   },
   {
-    "revision": "ac60d0d5296c188679aab1b22eaac03f",
-    "url": "/static/media/genx.ac60d0d5.jpg"
+    "revision": "67a586526902f373420f",
+    "url": "/static/js/main.67a58652.chunk.js"
   },
   {
     "revision": "864dc720366b1b8a0c29365e9b9086cd",
@@ -152,7 +140,7 @@ self.__precacheManifest = [
     "url": "/static/media/ux.9643bdd4.svg"
   },
   {
-    "revision": "a9d0dc8b90159a82d9c9ed05b004998d",
+    "revision": "6c093ed6c3aace22bed6556911032797",
     "url": "/index.html"
   }
 ];
