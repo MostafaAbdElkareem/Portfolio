@@ -27,6 +27,7 @@ import cert from 'assets/img/cert.jpg';
 import ws from 'assets/img/website.jpg';
 import fk from 'assets/img/fk.jpg';
 import xp from 'assets/img/xportal.JPG';
+import acecqa from 'assets/img/nqaits.jpg';
 import udmeyUX from 'assets/img/ux_certificate.jpg';
 
 function SectionTeams({ ...props }) {
@@ -38,7 +39,7 @@ function SectionTeams({ ...props }) {
 				<div className={classes.container} style={{ maxWidth: '80%' }}>
 					<GridContainer>
 						<GridItem xs={12} sm={8} md={8}>
-							<h2 className={classes.title}>My Work</h2>
+							<h2 className={classes.title}>Sample Work</h2>
 						</GridItem>
 					</GridContainer>
 					<GridContainer>
@@ -126,7 +127,7 @@ function SectionTeams({ ...props }) {
 							</Card> */}
 						</GridItem>
 						<GridItem xs={12} sm={6} md={4} lg={3}>
-							<Card blog plain>
+							{/* <Card blog plain>
 								<CardHeader image plain>
 									<a
 										href="https://www.behance.net/gallery/88025719/Udemy-UX-Certificate"
@@ -145,7 +146,7 @@ function SectionTeams({ ...props }) {
 										</a>
 									</h4>
 								</CardBody>
-							</Card>
+							</Card> */}
 							<Card blog plain>
 								<CardHeader image plain>
 									<a href="https://www.behance.net/gallery/79033017/Portfolio-Optimizer" target="new">
@@ -214,6 +215,26 @@ function SectionTeams({ ...props }) {
 							</Card>
 						</GridItem>
 						<GridItem xs={12} sm={6} md={4} lg={3}>
+							<Card blog plain>
+								<CardHeader image plain>
+									<a
+										href="https://www.behance.net/gallery/130161571/ACECQA-NQA-ITS-Portal-revamp"
+										target="new"
+									>
+										<img src={acecqa} alt="..." />
+									</a>
+								</CardHeader>
+								<CardBody plain>
+									<h4 className={classes.cardTitle}>
+										<a
+											href="https://www.behance.net/gallery/130161571/ACECQA-NQA-ITS-Portal-revamp"
+											target="new"
+										>
+											ACECQA NQA ITS Portal revamp
+										</a>
+									</h4>
+								</CardBody>
+							</Card>
 							<Card blog plain>
 								<CardHeader image plain>
 									<a href="https://www.behance.net/gallery/60063363/Dashboard-Concept" target="new">
