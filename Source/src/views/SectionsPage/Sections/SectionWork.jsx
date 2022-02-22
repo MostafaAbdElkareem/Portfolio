@@ -23,7 +23,6 @@ import gnx from 'assets/img/genx.jpg';
 import qnts from 'assets/img/qnts.jpg';
 import uig from 'assets/img/uig.jpg';
 import mint from 'assets/img/mint.jpg';
-import lyr2 from 'assets/img/layer2.png';
 import cert from 'assets/img/cert.jpg';
 import ws from 'assets/img/website.jpg';
 import fk from 'assets/img/fk.jpg';
