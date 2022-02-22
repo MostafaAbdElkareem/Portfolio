@@ -1,16 +1,16 @@
 {
   "main.css": "/static/css/main.e4ffe515.chunk.css",
-  "main.js": "/static/js/main.3ef460fa.chunk.js",
-  "main.js.map": "/static/js/main.3ef460fa.chunk.js.map",
+  "main.js": "/static/js/main.67a58652.chunk.js",
+  "main.js.map": "/static/js/main.67a58652.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.42ac5946.js",
   "runtime~main.js.map": "/static/js/runtime~main.42ac5946.js.map",
-  "static/js/2.45528a52.chunk.js": "/static/js/2.45528a52.chunk.js",
-  "static/js/2.45528a52.chunk.js.map": "/static/js/2.45528a52.chunk.js.map",
+  "static/js/2.e250ead7.chunk.js": "/static/js/2.e250ead7.chunk.js",
+  "static/js/2.e250ead7.chunk.js.map": "/static/js/2.e250ead7.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.3ecf61811ab0320f252f9503512890a7.js": "/precache-manifest.3ecf61811ab0320f252f9503512890a7.js",
+  "precache-manifest.2bac9b49566b51f572c1b3046c8079f0.js": "/precache-manifest.2bac9b49566b51f572c1b3046c8079f0.js",
   "service-worker.js": "/service-worker.js",
   "static/css/main.e4ffe515.chunk.css.map": "/static/css/main.e4ffe515.chunk.css.map",
-  "static/media/Mostafa_Abdallah_Resume.docx": "/static/media/Mostafa_Abdallah_Resume.cf7c7e38.docx",
+  "static/media/Mostafa_Abdallah_Resume.docx": "/static/media/Mostafa_Abdallah_Resume.f3a8ae89.docx",
   "static/media/adobe.svg": "/static/media/adobe.d2908270.svg",
   "static/media/avatar.jpg": "/static/media/avatar.34ee9b2f.jpg",
   "static/media/banner.jpg": "/static/media/banner.21817db8.jpg",
@@ -24,6 +24,7 @@
   "static/media/fk.jpg": "/static/media/fk.a76eff6a.jpg",
   "static/media/foodklore.jpg": "/static/media/foodklore.0e35895c.jpg",
   "static/media/genx.jpg": "/static/media/genx.ac60d0d5.jpg",
+  "static/media/layer2.png": "/static/media/layer2.4bfdb3a5.png",
   "static/media/loading-bubbles.svg": "/static/media/loading-bubbles.0ec8f86a.svg",
   "static/media/mint.jpg": "/static/media/mint.7a331604.jpg",
   "static/media/nqaits.jpg": "/static/media/nqaits.7f1c43de.jpg",
@@ -39,6 +40,5 @@
   "static/media/ux.svg": "/static/media/ux.9643bdd4.svg",
   "static/media/ux_certificate.jpg": "/static/media/ux_certificate.4c4f8ce7.jpg",
   "static/media/website.jpg": "/static/media/website.ff2391fe.jpg",
-  "static/media/woqod.jpg": "/static/media/woqod.ab303137.jpg",
-  "static/media/xportal.JPG": "/static/media/xportal.ecda28a8.JPG"
+  "static/media/woqod.jpg": "/static/media/woqod.ab303137.jpg"
 }

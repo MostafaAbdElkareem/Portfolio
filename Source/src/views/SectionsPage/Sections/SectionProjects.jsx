@@ -19,7 +19,6 @@ import clg from 'assets/img/clg.png';
 import cbq from 'assets/img/cbq.jpg';
 import pearl from 'assets/img/thepearl.jpg';
 import foodklore from 'assets/img/foodklore.jpg';
-import xportal from 'assets/img/xportal.JPG';
 
 function SectionBlogs({ ...props }) {
 	const { classes, ...rest } = props;
@@ -62,18 +61,8 @@ function SectionBlogs({ ...props }) {
 												direct way of communicating with regulatory authorities aiming to reduce
 												paperwork and duplication.
 											</strong>
-											<br />I was responsible for revamping the current National Quality Agenda
-											application through understanding the current application UX/UI issues and
-											Apply a complete new UX design that solves users issue related to the
-											navigation and user flows in the application.
-											<br />
-											Design and implement modern, Engaging and nice looking interface with enable
-											responsive design to the application to allow more users to use the
-											application easily from different devices.<br /> <br />Adding user
-											preferences and personalization features to the application. Enable
-											SharePoint Out the box features like document management and search to
-											enrich the portal functionality.
-											<br />
+											<br />Responsible for revamp NQA ITS portal, Enhance the UX journy, Applying
+											modern style that engage users and enable responsivness.
 											<br />
 											Participating in Front-End development on SharePoint 2013. Keywords:
 											<br />
@@ -83,6 +72,8 @@ function SectionBlogs({ ...props }) {
 											<Badge color="primary">Javascript, JQuery</Badge>
 											<Badge color="primary">Photoshop</Badge>
 											<Badge color="primary">Wireframes, Prototype</Badge>
+											<Badge color="primary">HTML5</Badge>
+											<Badge color="primary">SASS & CSS</Badge>
 										</p>
 									</GridItem>
 								</GridContainer>
@@ -121,53 +112,7 @@ function SectionBlogs({ ...props }) {
 									</GridItem>
 								</GridContainer>
 							</Card>
-							<Card plain blog className={classes.card}>
-								<GridContainer>
-									<GridItem xs={12} sm={5} md={5}>
-										<CardHeader image plain>
-											<a
-												href="https://www.behance.net/gallery/130161571/ACECQA-NQA-ITS-Portal-revamp"
-												target="new"
-											>
-												<img src={xportal} alt="..." />
-											</a>
-										</CardHeader>
-									</GridItem>
-									<GridItem xs={12} sm={7} md={7}>
-										<Info>
-											<h6 className={classes.cardCategory}>ENTERPRISE</h6>
-										</Info>
-										<h3 className={classes.cardTitle}>
-											<a
-												href="https://www.behance.net/gallery/137670041/xPortal-Case-Study-Wireframes-Docs-Sample-designs"
-												target="new"
-											>
-												xPortal
-											</a>
-										</h3>
-										<p className={classes.description1}>
-											<strong>
-												Leading UX/UI team to develop SharePoint 2013 reusable Portal that can
-												be used as a starter project for responsive web sites to help reduce the
-												development effort and ensure delivering high-quality sites.
-											</strong>
-											<br />xPortal came fully loaded with most commonly used modules, all using
-											codeless web part, utilizing SharePoint new features and pure HTML5, Css3
-											and JavaScript. Participating in Front-End development on SharePoint 2013.
-											Keywords:
-											<br />
-											<br />
-											<strong>Keywords : </strong>
-											<Badge color="primary">Sharepoint 2013, Modern Webparts</Badge>
-											<Badge color="primary">Javascript, JQuery</Badge>
-											<Badge color="primary">Photoshop</Badge>
-											<Badge color="primary">Wireframes, Prototype</Badge>
-											<Badge color="primary">HTML5</Badge>
-											<Badge color="primary">SASS & CSS</Badge>
-										</p>
-									</GridItem>
-								</GridContainer>
-							</Card>
+
 							<Card plain blog className={classes.card}>
 								<GridContainer>
 									<GridItem xs={12} sm={5} md={5}>
@@ -246,46 +191,6 @@ function SectionBlogs({ ...props }) {
 									</GridItem>
 								</GridContainer>
 							</Card>
-
-							<Card plain blog className={classes.card}>
-								<GridContainer>
-									<GridItem xs={12} sm={7} md={7}>
-										<h6 className={classes.cardCategory}>ENTERPRISE</h6>
-										<h3 className={classes.cardTitle}>
-											<a href="http://www.cbq.qa/" target="new">
-												CBQ - Commercial Bank of Qatar Public Site
-											</a>
-										</h3>
-										<p className={classes.description1}>
-											<strong>
-												Commercial Bank plays a vital role in Qatar’s economic development
-												through offering a range of personal, business, government,
-												international and investment services.
-											</strong>
-											<br />
-											Leading a revamp of CBQ existing website, enhancing information architecture
-											and site navigation to help marketing team to reach out more customers.
-											Applying the new design over SharePoint 2010 and training the site editors
-											on how to use the publishing and content management features of SharePoint.
-											<br />
-											<br />
-											<strong>Keywords : </strong>
-											<Badge color="primary">Sharepoint 2010</Badge>
-											<Badge color="primary">Javascript, JQuery</Badge>
-											<Badge color="primary">Photoshop</Badge>
-											<Badge color="primary">HTML</Badge>
-											<Badge color="primary">CSS</Badge>
-										</p>
-									</GridItem>
-									<GridItem xs={12} sm={5} md={5}>
-										<CardHeader image plain>
-											<a href="http://www.cbq.qa/" target="new">
-												<img src={cbq} alt="..." />
-											</a>
-										</CardHeader>
-									</GridItem>
-								</GridContainer>
-							</Card>
 							<Card plain blog className={classes.card}>
 								<GridContainer>
 									<GridItem xs={12} sm={5} md={5}>
@@ -333,6 +238,46 @@ function SectionBlogs({ ...props }) {
 											<Badge color="primary">HTML</Badge>
 											<Badge color="primary">CSS</Badge>
 										</p>
+									</GridItem>
+								</GridContainer>
+							</Card>
+
+							<Card plain blog className={classes.card}>
+								<GridContainer>
+									<GridItem xs={12} sm={7} md={7}>
+										<h6 className={classes.cardCategory}>ENTERPRISE</h6>
+										<h3 className={classes.cardTitle}>
+											<a href="http://www.cbq.qa/" target="new">
+												CBQ - Commercial Bank of Qatar Public Site
+											</a>
+										</h3>
+										<p className={classes.description1}>
+											<strong>
+												Commercial Bank plays a vital role in Qatar’s economic development
+												through offering a range of personal, business, government,
+												international and investment services.
+											</strong>
+											<br />
+											Leading a revamp of CBQ existing website, enhancing information architecture
+											and site navigation to help marketing team to reach out more customers.
+											Applying the new design over SharePoint 2010 and training the site editors
+											on how to use the publishing and content management features of SharePoint.
+											<br />
+											<br />
+											<strong>Keywords : </strong>
+											<Badge color="primary">Sharepoint 2010</Badge>
+											<Badge color="primary">Javascript, JQuery</Badge>
+											<Badge color="primary">Photoshop</Badge>
+											<Badge color="primary">HTML</Badge>
+											<Badge color="primary">CSS</Badge>
+										</p>
+									</GridItem>
+									<GridItem xs={12} sm={5} md={5}>
+										<CardHeader image plain>
+											<a href="http://www.cbq.qa/" target="new">
+												<img src={cbq} alt="..." />
+											</a>
+										</CardHeader>
 									</GridItem>
 								</GridContainer>
 							</Card>
