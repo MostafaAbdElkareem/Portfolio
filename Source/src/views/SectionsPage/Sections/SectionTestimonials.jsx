@@ -12,7 +12,7 @@ import Card from 'components/Card/Card.jsx';
 import CardBody from 'components/Card/CardBody.jsx';
 import CardAvatar from 'components/Card/CardAvatar.jsx';
 import Muted from 'components/Typography/Muted.jsx';
-import Button from 'components/CustomButtons/Button.jsx';
+//import Button from 'components/CustomButtons/Button.jsx';
 import testimonialsStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/testimonialsStyle.jsx';
 
 class SectionTestimonials extends React.Component {
@@ -88,7 +88,7 @@ class SectionTestimonials extends React.Component {
 								</Carousel>
 							</GridItem>
 						</GridContainer>
-						<div className={classes.textCenter}>
+						{/* 	<div className={classes.textCenter}>
 							<Button
 								color="linkedin"
 								href="https://www.linkedin.com/in/mostafaabdelkareem/"
@@ -96,7 +96,7 @@ class SectionTestimonials extends React.Component {
 							>
 								<i className="fab fa-linkedin" /> More About Me on LinkedIn
 							</Button>
-						</div>
+						</div> */}
 					</div>
 				</div>
 				{/* Testimonials 2 END */}

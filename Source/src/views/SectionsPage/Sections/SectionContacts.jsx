@@ -14,9 +14,7 @@ import Card from 'components/Card/Card.jsx';
 import CardHeader from 'components/Card/CardHeader.jsx';
 import CardBody from 'components/Card/CardBody.jsx';
 import CardFooter from 'components/Card/CardFooter.jsx';
-
 import Button from 'components/CustomButtons/Button.jsx';
-
 import contactsStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/contactsStyle.jsx';
 
 import contact from 'assets/img/contact.jpg';
@@ -59,7 +57,7 @@ class SectionContacts extends React.Component {
 				5000
 			);
 		});
-		const templateId = 'template_0T1LMh9D';
+		const templateId = 'template_9imhypd';
 		this.sendFeedback(templateId, {
 			to_name: 'Desha',
 			message_html: this.state.feedback,
@@ -70,7 +68,7 @@ class SectionContacts extends React.Component {
 
 	sendFeedback(templateId, variables) {
 		window.emailjs
-			.send('gmail', templateId, variables)
+			.send('service_p2nzivl', templateId, variables)
 			.then((res) => {
 				console.log('Email successfully sent!');
 				this.setState({ message: 'Email successfully sent', color: 'success' });
