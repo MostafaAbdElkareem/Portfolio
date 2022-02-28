@@ -11,8 +11,8 @@ import Button from 'components/CustomButtons/Button.jsx';
 import GridContainer from 'components/Grid/GridContainer.jsx';
 import GridItem from 'components/Grid/GridItem.jsx';
 import headersStyle from 'assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx';
-//import web from 'assets/img/web-dev.jpg';
-//import powerpps from 'assets/img/powerapps.jpg';
+import web from 'assets/img/web-dev.jpg';
+import powerpps from 'assets/img/powerapps.jpg';
 import ux from 'assets/img/ux.jpg';
 import avatar from 'assets/img/avatar.jpg';
 import word from 'downloads/Mostafa_Abdallah_Resume.docx';
@@ -37,7 +37,49 @@ function SectionHeaders({ ...props }) {
 			{/* HEADER 3 START */}
 			<div>
 				<Carousel {...settings}>
-					{/* Carousel 3 START */}
+					<div>
+						<div
+							className={classes.pageHeader}
+							style={{ backgroundImage: `url("${web}")`, backgroundSize: 'cover' }}
+						>
+							<div className={classes.container}>
+								<GridContainer>
+									<GridItem xs={12} sm={6} md={6}>
+										<h4>ABOUT ME | My experience</h4>
+										<h1 className={classes.title}>UI & Front-End Development</h1>
+										<h4>
+											Hands-on expertise working with HTML, CSS and the latest releases of ReactJS
+											– SASS & LESS CSS pre-processors - Bootstrap / Materialize CSS frameworks
+											and Popular CMSs like (Sharepoint & WordPress) to build web applications
+											with extensive experience in building reusable components.
+											<br />Highly collaborative, people oriented and supportive team player.
+										</h4>
+
+										<Button justIcon color="white" simple>
+											<a
+												href="https://www.linkedin.com/in/mostafaabdelkareem/"
+												target="_blank"
+												rel="noopener noreferrer"
+												style={{ color: '#fff' }}
+											>
+												<i className="fab fa-linkedin-in" />
+											</a>
+										</Button>
+										<Button justIcon color="white" simple>
+											<a
+												href="https://www.behance.net/desha-portfolio"
+												target="_blank"
+												rel="noopener noreferrer"
+												style={{ color: '#fff' }}
+											>
+												<i className="fab fa-behance" />
+											</a>
+										</Button>
+									</GridItem>
+								</GridContainer>
+							</div>
+						</div>
+					</div>
 					<div>
 						<div
 							className={classes.pageHeader}
@@ -46,7 +88,7 @@ function SectionHeaders({ ...props }) {
 							<div className={classes.container}>
 								<GridContainer>
 									<GridItem xs={12} sm={5} md={5}>
-										<img
+										{/* 		<img
 											src={avatar}
 											alt=""
 											style={{
@@ -55,7 +97,7 @@ function SectionHeaders({ ...props }) {
 												border: '10px solid #f3fffa82',
 												marginTop: '0%'
 											}}
-										/>
+										/> */}
 									</GridItem>
 									<GridItem
 										xs={12}
@@ -71,20 +113,19 @@ function SectionHeaders({ ...props }) {
 											Prototyping into Delivering meaningful experience that solves users problems
 											and satisfy its needs, Deep understanding of designing complex solutions for
 											complete digital environments.
-											<br />
+											{/* 	<br />
 											<br />With broad professional experience in leveraging HTML, CSS and
 											JavaScript to build responsive web applications, and interactive features
 											that drive business growth and improve overall User Experience.
-											<br />
-											<br />Highly collaborative, people oriented and supportive team player.
+											<br /> */}
 										</h4>
 										<h4>
-											Downalod my Resume{' '}
+											{/* Downalod my Resume{' '}
 											<Button justIcon color="white" simple>
 												<a style={{ color: '#fff' }} href={word}>
 													<i className="fas fa-file-word" />
 												</a>
-											</Button>
+											</Button> */}
 											{/* 	<Button justIcon color="white" simple>
 												<a style={{ color: '#fff' }} href={pdf}>
 													<i className="fas fa-file-pdf" />
@@ -127,32 +168,7 @@ function SectionHeaders({ ...props }) {
 							</div>
 						</div>
 					</div>
-					{/* Carousel 3 END */}
-					{/* Carousel 1 START */}
-					{/* 	<div>
-						<div
-							className={classes.pageHeader}
-							style={{ backgroundImage: `url("${web}")`, backgroundSize: 'cover' }}
-						>
-							<div className={classes.container}>
-								<GridContainer>
-									<GridItem xs={12} sm={6} md={6}>
-										<h4>ABOUT ME | My experience</h4>
-										<h1 className={classes.title}>UI & Front-End Development</h1>
-										<h4>
-											Hands-on expertise working with HTML, CSS and the latest releases of ReactJS
-											– SASS & LESS CSS pre-processors - Bootstrap / Materialize CSS frameworks
-											and Popular CMSs like (Sharepoint & WordPress) to build web applications
-											with extensive experience in building reusable components.
-										</h4>
-									</GridItem>
-								</GridContainer>
-							</div>
-						</div>
-					</div> */}
-					{/* Carousel 1 END */}
-					{/* Carousel 1 START */}
-					{/* 	<div>
+					<div>
 						<div
 							className={classes.pageHeader}
 							style={{ backgroundImage: `url("${powerpps}")`, backgroundSize: 'cover' }}
@@ -164,14 +180,14 @@ function SectionHeaders({ ...props }) {
 										<h1 className={classes.title}>PowerApps Platform Customization</h1>
 										<h4>
 											Building nice looking & codeless canvas apps / Create fully customized web
-											templates using liquid to dilever modern powerapps portal.
+											templates using liquid language / HTML5 / CSS3 & JavaScript to dilever
+											modern powerapps portal.
 										</h4>
 									</GridItem>
 								</GridContainer>
 							</div>
 						</div>
-					</div> */}
-					{/* Carousel 1 END */}
+					</div>
 				</Carousel>
 			</div>
 			{/* HEADER 3 END */}

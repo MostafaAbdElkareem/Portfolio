@@ -107,25 +107,26 @@ function SectionBlogs({ ...props }) {
 												direct way of communicating with regulatory authorities aiming to reduce
 												paperwork and duplication.
 											</strong>
-											<br />I was responsible for revamping the current National Quality Agenda
-											application through understanding the current application UX/UI issues and
-											Apply a complete new UX design that solves users issue related to the
-											navigation and user flows in the application.
-											<br />
-											Design and implement modern, Engaging and nice looking interface with enable
-											responsive design to the application to allow more users to use the
-											application easily from different devices.<br /> <br />Adding user
-											preferences and personalization features to the application. Enable
-											SharePoint Out the box features like document management and search to
-											enrich the portal functionality.
+											I was responsible for revamping the current National Quality Agenda
+											application which based on on-prem SharePoint 2013 Design and implement
+											modern interface and enable device responsiveness to the application to
+											allow more users to use the application easily from different devices in
+											addition to enable user personalization and preferences to the application
+											look and feel.
 											<br />
 											<br />
-											Participating in Front-End development on SharePoint 2013. Keywords:
+											Utilise SharePoint Out the box features like document management and search
+											to enrich the portal functionality Build SharePoint modern web parts
+											[including building Reusable Components] using ReactJS.
 											<br />
+											<br />
+											Customise Power portal using Liquid language, HTML5, JavaScript and CSS to
+											build nice looking and interactive portal and also enhance Power BI reports
+											and integrate it with the portal.
 											<br />
 											<strong>Keywords : </strong>
 											<Badge color="primary">Sharepoint 2013, Modern Webparts</Badge>
-											<Badge color="primary">Javascript, JQuery</Badge>
+											<Badge color="primary">Javascript, ReactJS, JQuery</Badge>
 											<Badge color="primary">Photoshop</Badge>
 											<Badge color="primary">Wireframes, Prototype</Badge>
 										</p>
