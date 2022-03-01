@@ -57,11 +57,11 @@ function SectionBlogs({ ...props }) {
 											<br />
 											<br />
 											<strong>Keywords : </strong>
-											<Badge color="primary">Sharepoint 2013, Modern Webparts</Badge>
-											<Badge color="primary">Javascript, JQuery</Badge>
-											<Badge color="primary">Photoshop</Badge>
-											<Badge color="primary">Wireframes, Prototype</Badge>
-											<Badge color="primary">HTML5</Badge>
+											<Badge color="info">Sharepoint 2013, Modern Webparts</Badge>
+											<Badge color="danger">Javascript, JQuery</Badge>
+											<Badge color="success">Figma</Badge>
+											<Badge color="info">Photoshop</Badge>
+											<Badge color="rose">HTML5</Badge>
 											<Badge color="primary">SASS & CSS</Badge>
 										</p>
 									</GridItem>
@@ -95,7 +95,7 @@ function SectionBlogs({ ...props }) {
 										</Info>
 										<h3 className={classes.cardTitle}>
 											<a
-												href="https://public.nqaits.acecqa.gov.au/Pages/Landing.aspx"
+												href="https://www.behance.net/gallery/130161571/ACECQA-NQA-ITS-Portal-revamp"
 												target="new"
 											>
 												ACECQA - NQA ITS
@@ -125,10 +125,10 @@ function SectionBlogs({ ...props }) {
 											and integrate it with the portal.
 											<br />
 											<strong>Keywords : </strong>
-											<Badge color="primary">Sharepoint 2013, Modern Webparts</Badge>
-											<Badge color="primary">Javascript, ReactJS, JQuery</Badge>
-											<Badge color="primary">Photoshop</Badge>
-											<Badge color="primary">Wireframes, Prototype</Badge>
+											<Badge color="info">Sharepoint 2013, Modern Webparts</Badge>
+											<Badge color="danger">Javascript, ReactJS, JQuery</Badge>
+											<Badge color="success">Figma</Badge>
+											<Badge color="info">Photoshop</Badge>
 										</p>
 									</GridItem>
 								</GridContainer>
@@ -152,9 +152,9 @@ function SectionBlogs({ ...props }) {
 											build the website IA, Visuals and site navigation on Wordpress.
 											<br />
 											<br /> <strong>Keywords: </strong>
-											<Badge color="primary">WordPress</Badge>
-											<Badge color="primary">Photoshop</Badge>
-											<Badge color="primary">HTML5</Badge>
+											<Badge color="rose">WordPress</Badge>
+											<Badge color="info">Photoshop</Badge>
+											<Badge color="rose">HTML5</Badge>
 											<Badge color="primary">CSS</Badge>
 										</p>
 									</GridItem>
@@ -198,12 +198,11 @@ function SectionBlogs({ ...props }) {
 											<br />
 											<br />
 											<strong>Keywords : </strong>
-											<Badge color="primary">Sharepoint 2013</Badge>
-											<Badge color="primary">CSWP, Dispaly Templates</Badge>
-											<Badge color="primary">Javascript, JQuery</Badge>
-											<Badge color="primary">Photoshop</Badge>
-											<Badge color="primary">Wireframes, Prototype</Badge>
-											<Badge color="primary">HTML5</Badge>
+											<Badge color="info">Sharepoint 2013</Badge>
+											<Badge color="danger">Javascript, JQuery</Badge>
+											<Badge color="info">Photoshop</Badge>
+											<Badge color="success">Wireframes, Prototype</Badge>
+											<Badge color="rose">HTML5</Badge>
 											<Badge color="primary">SASS & CSS</Badge>
 										</p>
 									</GridItem>
@@ -228,11 +227,10 @@ function SectionBlogs({ ...props }) {
 											<br />
 											<br />
 											<strong>Keywords : </strong>
-											<Badge color="primary">Sharepoint 2013</Badge>
-											<Badge color="primary">CSWP, Display Template</Badge>
-											<Badge color="primary">Javascript, JQuery</Badge>
-											<Badge color="primary">Photoshop</Badge>
-											<Badge color="primary">HTML5</Badge>
+											<Badge color="info">Sharepoint 2013</Badge>
+											<Badge color="danger">Javascript, JQuery</Badge>
+											<Badge color="info">Photoshop</Badge>
+											<Badge color="rose">HTML5</Badge>
 											<Badge color="primary">CSS</Badge>
 										</p>
 									</GridItem>
@@ -285,11 +283,11 @@ function SectionBlogs({ ...props }) {
 											<br />
 											<br />
 											<strong>Keywords : </strong>
-											<Badge color="primary">Photoshop</Badge>
-											<Badge color="primary">Wireframes, Prototype</Badge>
-											<Badge color="primary">Sharepoint 2010</Badge>
-											<Badge color="primary">Javascript, JQuery</Badge>
-											<Badge color="primary">HTML</Badge>
+											<Badge color="info">Photoshop</Badge>
+											<Badge color="success">Wireframes, Prototype</Badge>
+											<Badge color="info">Sharepoint 2010</Badge>
+											<Badge color="danger">Javascript, JQuery</Badge>
+											<Badge color="rose">HTML</Badge>
 											<Badge color="primary">CSS</Badge>
 										</p>
 									</GridItem>
@@ -318,10 +316,10 @@ function SectionBlogs({ ...props }) {
 											<br />
 											<br />
 											<strong>Keywords : </strong>
-											<Badge color="primary">Sharepoint 2010</Badge>
-											<Badge color="primary">Javascript, JQuery</Badge>
-											<Badge color="primary">Photoshop</Badge>
-											<Badge color="primary">HTML</Badge>
+											<Badge color="info">Sharepoint 2010</Badge>
+											<Badge color="danger">Javascript, JQuery</Badge>
+											<Badge color="info">Photoshop</Badge>
+											<Badge color="rose">HTML</Badge>
 											<Badge color="primary">CSS</Badge>
 										</p>
 									</GridItem>

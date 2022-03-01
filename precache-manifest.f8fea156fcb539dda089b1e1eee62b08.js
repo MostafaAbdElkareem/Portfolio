@@ -4,40 +4,40 @@ self.__precacheManifest = [
     "url": "/static/media/banner.21817db8.jpg"
   },
   {
-    "revision": "4b19c0934fbe92079507",
-    "url": "/static/css/main.e2ae84d0.chunk.css"
+    "revision": "8c247dad0790f2afbbe9",
+    "url": "/static/css/main.e171bfea.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.42ac5946.js"
   },
   {
-    "revision": "048deed5863a826f3135",
-    "url": "/static/js/2.048deed5.chunk.js"
+    "revision": "b18b75fc4f3b8b982a52",
+    "url": "/static/js/2.b18b75fc.chunk.js"
   },
   {
-    "revision": "813f3fc6f2143d32d44c1188dc5314fd",
-    "url": "/static/media/Mostafa-Abdallah_Resume.813f3fc6.docx"
+    "revision": "7f1c43de740a25443928b6d10410e48f",
+    "url": "/static/media/nqaits.7f1c43de.jpg"
+  },
+  {
+    "revision": "5c29e62e3cf1df5728af951c9bbdc25d",
+    "url": "/static/media/xportal.5c29e62e.JPG"
   },
   {
     "revision": "130810fea8edf449da972a7e32833a49",
     "url": "/static/media/clg.130810fe.png"
   },
   {
-    "revision": "435d64810238b54864e40496f2178636",
-    "url": "/static/media/MA-logo_t.435d6481.png"
-  },
-  {
     "revision": "527de93c5e0adc99cdac8aad4796b5aa",
     "url": "/static/media/web-dev.527de93c.jpg"
   },
   {
-    "revision": "0921e6eee7b626b599d329e233bd0a47",
-    "url": "/static/media/ux.0921e6ee.jpg"
+    "revision": "0e78e1f21a644ae6e6a37978b7dbbcd1",
+    "url": "/static/media/powerapps.0e78e1f2.jpg"
   },
   {
-    "revision": "34ee9b2ffded3f549c523a63decdf7af",
-    "url": "/static/media/avatar.34ee9b2f.jpg"
+    "revision": "0921e6eee7b626b599d329e233bd0a47",
+    "url": "/static/media/ux.0921e6ee.jpg"
   },
   {
     "revision": "d639f4d6b8274d933d0dc579183585a7",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/static/media/dashboard.d6b17feb.jpg"
   },
   {
-    "revision": "4b19c0934fbe92079507",
-    "url": "/static/js/main.4b19c093.chunk.js"
+    "revision": "8c247dad0790f2afbbe9",
+    "url": "/static/js/main.8c247dad.chunk.js"
   },
   {
     "revision": "ac60d0d5296c188679aab1b22eaac03f",
@@ -92,10 +92,6 @@ self.__precacheManifest = [
     "url": "/static/media/mint.7a331604.jpg"
   },
   {
-    "revision": "4bfdb3a5966688d70a19e6fdef8e46b1",
-    "url": "/static/media/layer2.4bfdb3a5.png"
-  },
-  {
     "revision": "96b32a85f07ede2cd65d2a48808f4092",
     "url": "/static/media/cert.96b32a85.jpg"
   },
@@ -108,20 +104,24 @@ self.__precacheManifest = [
     "url": "/static/media/fk.a76eff6a.jpg"
   },
   {
-    "revision": "4c4f8ce7d28e2b959bb83e82fd7bdf8e",
-    "url": "/static/media/ux_certificate.4c4f8ce7.jpg"
-  },
-  {
     "revision": "d8d78fdd158f5dd37a58ad1c5f5ce052",
     "url": "/static/media/contact.d8d78fdd.jpg"
   },
   {
-    "revision": "d2908270fd094274cd3e5b665b90047f",
-    "url": "/static/media/adobe.d2908270.svg"
+    "revision": "34ee9b2ffded3f549c523a63decdf7af",
+    "url": "/static/media/avatar.34ee9b2f.jpg"
   },
   {
-    "revision": "e8626702490c135ac7a3b4f6604cdf01",
-    "url": "/static/media/coding.e8626702.svg"
+    "revision": "cf7c7e3860849fa72c0dd23785ec4b9f",
+    "url": "/static/media/Mostafa_Abdallah_Resume.cf7c7e38.docx"
+  },
+  {
+    "revision": "3f266386f7a3e5a5d718d57aaed0b479",
+    "url": "/static/media/adobe.3f266386.svg"
+  },
+  {
+    "revision": "4a8e826f1161225d8066b6f3d9a9bba3",
+    "url": "/static/media/coding.4a8e826f.svg"
   },
   {
     "revision": "0a337c37f03c0462996b7b03758fa72b",
@@ -140,11 +140,11 @@ self.__precacheManifest = [
     "url": "/static/media/team.adb77ccf.svg"
   },
   {
-    "revision": "9643bdd4df4896cf7fcaa5ef3bb1d17f",
-    "url": "/static/media/ux.9643bdd4.svg"
+    "revision": "edf411f895b5916868df43612e6559a2",
+    "url": "/static/media/ux.edf411f8.svg"
   },
   {
-    "revision": "5c4843b70fe125c857820e4be44708b1",
+    "revision": "475fe819864ffbf15ad61bf6a3d46876",
     "url": "/index.html"
   }
 ];
